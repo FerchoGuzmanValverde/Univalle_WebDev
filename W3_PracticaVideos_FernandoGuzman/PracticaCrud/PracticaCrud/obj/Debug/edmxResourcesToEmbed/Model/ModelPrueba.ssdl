@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebasDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Formato">
+    <Key>
+      <PropertyRef Name="idFormato" />
+    </Key>
+    <Property Name="idFormato" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Video">
+    <Key>
+      <PropertyRef Name="idVideo" />
+    </Key>
+    <Property Name="idVideo" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="idFormato" Type="tinyint" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Video_Formato">
+    <End Role="Formato" Type="Self.Formato" Multiplicity="1" />
+    <End Role="Video" Type="Self.Video" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Formato">
+        <PropertyRef Name="idFormato" />
+      </Principal>
+      <Dependent Role="Video">
+        <PropertyRef Name="idFormato" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PruebasDBModelStoreContainer">
+    <EntitySet Name="Formato" EntityType="Self.Formato" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Video" EntityType="Self.Video" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Video_Formato" Association="Self.FK_Video_Formato">
+      <End Role="Formato" EntitySet="Formato" />
+      <End Role="Video" EntitySet="Video" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

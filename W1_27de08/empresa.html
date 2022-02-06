@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Empresa</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Pagina de mi practica">
+	<meta name="keywords" content="practica">
+	<meta name="author" content="Fernando Guzman Vlaverde">
+</head>
+<body>
+	<header>
+		<div class="buscador"></div>
+		<img src="images/feicobolempresas.jpg" width="100%">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="empresa.html">Empresa</a></li>
+			<li><a href="contactos.html">Contactos</a></li>
+		</ul>
+	</nav>
+		<main>
+			<section>
+				<article>
+					<form action="guardar.php">
+						<fieldset>
+							<legend>Acceso al Sistema</legend>
+							<label>Usuario(obligatorio):</label>
+							<input type="text" name="nomUsuario" required placeholder="Usuario">
+							<label>Password(obligatorio):</label>
+							<input type="Password" name="contrasenia" required placeholder="Contraseña">
+						</fieldset>
+						<fieldset>
+							<legend>Datos de la Empresa</legend>
+							<label>Nombre:</label>
+							<input type="text" name="nombreEmpresa" placeholder="Empresa">
+							<label>Rubro:</label>
+							<select name="Rubro">
+								<option value="Ali">Alimentos</option>
+								<option value="Tec">Tecnologia</option>
+								<option value="Hog">Hogar</option>
+							</select><br>
+							<label>Tipo Empresa:</label><br>
+							<input type="radio" name="tipoempresa" value="Micro" checked>Micro-Empresa<br>
+							<input type="radio" name="tipoempresa" value="Pequenia">Pequeña-Empresa<br>
+							<input type="radio" name="tipoempresa" value="Mediana">Mediana-Empresa<br>
+							<input type="radio" name="tipoempresa" value="Empresa">Empresa<br>
+						</fieldset>
+						<fieldset>
+							<legend>Fechas Logicas</legend>
+							<label>Instalacion del Stand:</label>
+							<input type="date" name="stand" min="2018-04-01" max="2018-04-14" value="2018-04-01"><br> 
+							<label>Despliegue de Mercaderia:</label>
+							<input type="date" name="despliegue" min="2018-04-15" max="2018-04-30" value="2018-04-15"><br>
+							<label>Desalojo y Limpieza del Stand:</label>
+							<input type="date" name="desalojo" min="2018-05-15" max="2018-05-31" value="2018-05-15"><br>
+							<label>Hora Ingreso:</label>
+							<input type="time" name="ingreso" value="08:00"><br>
+							<label>Hora Salida:</label>
+							<input type="time" name="salida" value="23:00"><br>
+							<label>Numero Integrantes:</label>
+							<input type="number" name="integrantes" min="1" max="8" value="1"><br>
+						</fieldset>
+						<input type="submit" name="cargar" value="Registrar Empresa">
+						<input type="reset" name="reiniciar" value="Reiniciar Formulario">
+					</form>
+				</article>
+				<article>
+					<img src="images/google.jpg">
+				</article>
+				<article>
+					<img src="images/googledev.jpg">
+				</article>
+				<article>
+					<img src="images/wtechmarkers.jpg">
+				</article>
+			</section>
+		</main>
+		<aside>
+			<img src="images/banner.jpg">
+		</aside>
+		<footer>
+			<div class="rrss"></div>
+			<p>FEICOBOL &copy; 2018 </p>
+			<img src="images/redes.jpg">
+		</footer>
+
+</body>
+</html>

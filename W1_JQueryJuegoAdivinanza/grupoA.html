@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Jquery</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Drag and Drop en HTML5">
+    <meta name="keywords" content="Drag and Drop, HTML5, Internet">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <h1>Practica 2</h1>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+
+          <div class="card">
+
+            <div class="card-body" id="panel">
+              <center>
+                  <button type="button" id="reiniciar" class="btn btn-success">Reiniciar</button>
+                  <h1 id="mensaje">Selecciona una opcion</h1>
+                  <img src="img/vaso.png" id="1">
+                  <img src="img/vaso.png" id="2">
+                  <img src="img/vaso.png" id="3">
+              </center>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  var num = 0;
+
+  $(document).ready(function(){
+
+    num = Math.floor(Math.random()*3)+1;
+
+    $('#1').click(function(){
+      if(num==1)
+      {
+        $('#2').hide(1000);
+        $('#3').hide(1000);
+        var imagen = document.getElementById("1");
+        imagen.src = "img/smile.png";
+        document.getElementById("mensaje").innerHTML = "Acertaste!!!";
+      }
+      else
+      {
+        $('#2').hide(1000);
+        $('#3').hide(1000);
+        var imagen = document.getElementById("1");
+        imagen.src = "img/angry.png";
+        document.getElementById("mensaje").innerHTML = "Mal echo amigo!!!";
+      }
+    });
+    $('#2').click(function(){
+      if(num==2)
+      {
+        $('#1').hide(1000);
+        $('#3').hide(1000);
+        var imagen = document.getElementById("2");
+        imagen.src = "img/smile.png";
+        document.getElementById("mensaje").innerHTML = "Acertaste!!!";
+      }
+      else
+      {
+        $('#1').hide(1000);
+        $('#3').hide(1000);
+        var imagen = document.getElementById("2");
+        imagen.src = "img/angry.png";
+        document.getElementById("mensaje").innerHTML = "Lo siento!!!";
+      }
+    });
+    $('#3').click(function(){
+      if(num==3)
+      {
+        $('#2').hide(1000);
+        $('#1').hide(1000);
+        var imagen = document.getElementById("3");
+        imagen.src = "img/smile.png";
+        document.getElementById("mensaje").innerHTML = "Acertaste!!!";
+      }
+      else
+      {
+        $('#1').hide(1000);
+        $('#2').hide(1000);
+        var imagen = document.getElementById("3");
+        imagen.src = "img/angry.png";
+        document.getElementById("mensaje").innerHTML = "No Acertaste!!!";
+      }
+    });
+  });
+
+  $('#reiniciar').click(function(){
+
+    var imagen;
+    num = Math.floor(Math.random()*3)+1;
+
+    imagen = document.getElementById("1");
+        imagen.src = "img/vaso.png";
+    imagen = document.getElementById("2");
+        imagen.src = "img/vaso.png";
+    imagen = document.getElementById("3");
+        imagen.src = "img/vaso.png";
+
+    document.getElementById("mensaje").innerHTML = "Selecciona una opcion";
+
+    $('#1').show();
+    $('#2').show();
+    $('#3').show();
+  });
+
+</script>
+
+  </body>
+</html>

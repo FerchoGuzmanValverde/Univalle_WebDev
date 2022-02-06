@@ -1,0 +1,10 @@
+C:\PROJECTS\Ejercicios\TraceComponents\bin\TraceComponents.dll
+C:\PROJECTS\Ejercicios\TraceComponents\bin\TraceComponents.pdb
+C:\PROJECTS\Ejercicios\TraceComponents\obj\Debug\TraceComponents.dll
+C:\PROJECTS\Ejercicios\TraceComponents\obj\Debug\TraceComponents.pdb
+C:\PROJECTS\Ejercicios\TraceComponents\obj\Debug\TraceComponents.csprojResolveAssemblyReference.cache
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TraceComponents\bin\TraceComponents.dll
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TraceComponents\bin\TraceComponents.pdb
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TraceComponents\obj\Debug\TraceComponents.csprojResolveAssemblyReference.cache
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TraceComponents\obj\Debug\TraceComponents.dll
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TraceComponents\obj\Debug\TraceComponents.pdb

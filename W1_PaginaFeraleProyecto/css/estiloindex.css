@@ -1,0 +1,111 @@
+body{
+	background-color: green;
+	padding: 5px;
+}
+
+header{
+	background-color: green;
+}
+
+.divicion{
+	display: flex;
+}
+
+.divicion main{
+	flex: 3;
+}
+
+.divicion aside{
+	flex: 1;
+}
+
+.sobreempresa{
+	display: flex;
+}
+
+.sobreempresa p{
+	flex: 1;
+}
+
+.quienessomos{
+	display: flex;
+}
+
+.quienessomos p{
+	flex: 1;
+}
+
+main{
+	background-color: #8bf464;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+
+img{
+	float: left;
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+nav{
+	padding: 10px;
+	margin: 5px;
+	background-color: #83ac8e;
+	width: auto;
+	height: 30px;
+	border-radius: 20px;
+}
+
+nav a{
+	margin: 0%;
+	padding: 12px;
+	display: block;
+	float: left;
+}
+
+nav a:hover{
+	background-color: green;
+	color: black;
+}
+
+nav a:visited{
+	color:black;
+}
+
+nav a:active{
+	background-color: green;
+	color: black;
+}
+
+aside{
+	background-color: #83ac8e;
+	border-radius: 20px;
+	margin: 10px;
+	text-align: center;
+	padding: 5px;
+}
+
+footer{
+	background-color: green;
+	text-align: center;
+}
+
+@media(min-width: 900px)
+{
+	.divicion{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+a{
+	text-decoration: none;
+}
+
+main p{
+	text-align: justify;
+	margin: 10px;
+}

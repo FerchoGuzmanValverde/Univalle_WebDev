@@ -1,0 +1,28 @@
+<?php
+
+defined('BASEPATH') OR exit ('No direct script access alloweed');
+
+/**
+ * 
+ */
+class Usuarios_model extends CI_model
+{
+	public function validar($login, $password)
+	{
+		$this->db->select('*');
+		$this->db->from('usuarios');
+		$this->db->where('login', $login);
+		$this->db->where('password', $password);
+		return $this->db->get();
+	}
+
+	public function listausuarios()
+	{
+		$this->db->select('*');
+		$this->db->from('usuarios');
+		return $this->db->get();
+	}
+
+}
+
+?>

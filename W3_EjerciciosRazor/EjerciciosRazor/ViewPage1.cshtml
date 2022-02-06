@@ -1,0 +1,92 @@
+﻿@{
+    Random sueldoR = new Random();
+
+    var sueldo1 = sueldoR.Next(1, 5000);
+    var sueldo2 = sueldoR.Next(1, 5000);
+    var sueldo3 = sueldoR.Next(1, 5000);
+
+    var mmi1 = ""; var mmi2 = ""; var mmi3 = "";
+    var au1 = ""; var au2 = ""; var au3 = "";
+    
+        if (sueldo1 < 1000)
+        {
+            mmi1 = "Sueldo menor a 1000 Bs";
+            au1 = "Aumento: 25%";
+        }
+        else if (sueldo1 > 1500)
+        {
+            mmi1 = "Sueldo mayor a 1500 Bs";
+            au1 = "Aumento: 18%";
+        }
+        else
+        {
+            mmi1 = "Sueldo entre 1000 y 1500 Bs";
+            au1 = "Aumento: 21%";
+        }
+        if (sueldo2 < 1000)
+        {
+            mmi2 = "Sueldo menor a 1000 Bs";
+            au2 = "Aumento: 25%";
+        }
+        else if (sueldo2 > 1500)
+        {
+            mmi2 = "Sueldo mayor a 1500 Bs";
+            au2 = "Aumento: 28%";
+        }
+        else
+        {
+            mmi2 = "Sueldo entre 1000 y 1500 Bs";
+            au2 = "Aumento: 21%";
+        } 
+        if (sueldo3 < 1000)
+        {
+            mmi3 = "Sueldo menor a 1000 Bs";
+            au3 = "Aumento: 25%";
+        }
+        else if (sueldo3 > 1500)
+        {
+            mmi3 = "Sueldo mayor a 1500 Bs";
+            au3 = "Aumento: 18%";
+        }
+        else
+        {
+            mmi3 = "Sueldo entre 1000 y 1500 Bs";
+            au3 = "Aumento: 21%";
+        }
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+    <table>
+        <thead>
+            <tr>
+                <td>Sueldo</td>
+                <td>Aumento</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@mmi1</td>
+                <td>@au1</td>
+            </tr>
+            <tr>
+                <td>@mmi2</td>
+                <td>@au2</td>
+            </tr>
+            <tr>
+                <td>@mmi3</td>
+                <td>@au3</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>

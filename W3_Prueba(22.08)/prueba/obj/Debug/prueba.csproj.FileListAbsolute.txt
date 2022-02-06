@@ -1,0 +1,6 @@
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Prueba(22.08)\prueba\bin\prueba.dll.config
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Prueba(22.08)\prueba\bin\prueba.dll
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Prueba(22.08)\prueba\bin\prueba.pdb
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Prueba(22.08)\prueba\obj\Debug\prueba.csprojResolveAssemblyReference.cache
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Prueba(22.08)\prueba\obj\Debug\prueba.dll
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Prueba(22.08)\prueba\obj\Debug\prueba.pdb

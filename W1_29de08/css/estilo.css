@@ -1,0 +1,56 @@
+body{
+	font-family: verdana;
+	font-size: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: times new roman;
+}
+
+}
+
+
+h3{
+	color: #A52A2A;
+	text-decoration: underline;
+}
+
+h2{
+	font-size: 60px;
+	color: red;
+}
+
+footer p{
+	text-decoration: underline dotted;
+}
+
+#navegacion{
+	background-color: green;
+}
+
+.contenedor{
+	background-color: green;
+}
+
+.seccion{
+	background-color: #deb887;
+}
+
+.logo_lenguaje{
+	width: 300px;
+}
+
+p{
+	font-size: 10px;
+}
+
+p.parrafoazul{
+	color: blue;
+}
+
+/* h3 selector, se define etiqueta HTML, id, clases*/
+/* {} inicio y final de una declaracion */
+/* color Propiedad  */ 
+/* : separado entre propiedad y valor; */ 
+/* #a52a2a valor */ 
+/* ; separador de la propiedad */ 

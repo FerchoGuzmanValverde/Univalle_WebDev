@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>2do Parcial</title>
+    <meta charset="utf-8">
+    <meta name="description" content="2do Parcial DPW">
+    <meta name="keywords" content="Javascript, Programacion Web, Internet">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <h1>Pregunta No. 5</h1>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+
+          <div class="card">
+
+            <div class="card-body" id="panel">
+              <center>
+                <h1>Seleccione figura</h1>
+              </center>
+
+              <select id="figura" style="vertical-align: top" onchange="verificar()">
+                <option selected value="nada">Seleccione una figura</option>
+                <option value="circulo">Circulo</option>
+                <option value="triangulo">Triangulo</option>
+                <option value="cuadrado">Cuadrado</option>
+              </select>
+              <canvas id="dibujo" width="400" height="400">
+                
+              </canvas>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+  <script type="text/javascript">
+    
+    function verificar(){
+      var valor = document.getElementById("figura").value;
+
+      if(valor == "nada")
+      {
+        alert("No ingreso figura");
+      }
+      else if(valor == "circulo")
+      {
+        var elemento = document.getElementById("dibujo");
+        var contexto = elemento.getContext('2d');
+        contexto.clearRect(0,0, 400, 400);
+        contexto.beginPath();
+        contexto.arc(200,200,150,0,Math.PI*2, true);
+        contexto.stroke();
+        /*contexto.moveTo(110, 75);
+        contexto.arc(75,75,35,0,Math.PI, false);*/
+      }
+      else if(valor == "triangulo")
+      {
+        var elemento = document.getElementById("dibujo");
+        var contexto = elemento.getContext('2d');
+        contexto.clearRect(0,0, 400, 400);
+        contexto.beginPath(10,50);
+        contexto.lineTo(100, 300);
+        contexto.lineTo(300, 10);
+        contexto.lineTo(10, 100);
+        contexto.lineTo(100, 300);
+        contexto.stroke();
+      }
+      else
+      {
+        var elemento = document.getElementById("dibujo");
+        var contexto = elemento.getContext('2d');
+        contexto.clearRect(0,0, 400, 400);
+        contexto.beginPath(10, 10);
+        contexto.lineTo(10, 200);
+        contexto.lineTo(200, 200);
+        contexto.lineTo(200, 10);
+        contexto.lineTo(10, 10);
+        contexto.lineTo(10, 200);
+        contexto.stroke();
+      }
+    }
+
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,188 @@
+﻿@using WebMatrix.Data
+@{
+    var db = Database.Open("cadenaconexion");
+}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Multiservicios</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:300,400,700%7CPoppins:300,400,500,700,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-body">
+            <div class="cssload-container">
+                <div class="cssload-speeding-wheel"></div>
+            </div>
+            <p>Loading...</p>
+        </div>
+    </div>
+    <div class="page">
+        <header class="section page-header">
+            <!--RD Navbar-->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+                    <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+                    <div class="rd-navbar-aside-outer rd-navbar-collapse bg-gray-dark">
+                        <div class="rd-navbar-aside">
+                            <ul class="list-inline navbar-contact-list">
+                                <li>
+                                    <div class="unit unit-spacing-xs align-items-center">
+                                        <div class="unit-left"><span class="icon text-middle fa-whatsapp"></span></div>
+                                        <div class="unit-body">(+591) 73229219</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="unit unit-spacing-xs align-items-center">
+                                        <div class="unit-left"><span class="icon text-middle fa-map-marker"></span></div>
+                                        <div class="unit-body">Shopping IC Norte Hipodromo, Local Nro. 3, Nivel 1</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="social-links">
+                                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="https://www.facebook.com/Multiservicios-781805652156275/"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rd-navbar-main-outer">
+                        <div class="rd-navbar-main">
+                            <!--RD Navbar Panel-->
+                            <div class="rd-navbar-panel">
+                                <!--RD Navbar Toggle-->
+                                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                                <!--RD Navbar Brand-->
+                                <div class="rd-navbar-brand">
+                                    <!--Brand--><h4 style="color:white;">Tienda Multiservicios</h4>
+                                </div>
+                            </div>
+                            <div class="rd-navbar-main-element">
+                                <div class="rd-navbar-nav-wrap">
+                                    <ul class="rd-navbar-nav">
+                                        <li class="rd-nav-item">
+                                            <a class="rd-nav-link" href="~/Inicio.cshtml">Inicio</a>
+                                        </li>
+                                        <li class="rd-nav-item">
+                                            <a class="rd-nav-link" href="~/Google.cshtml">Google</a>
+                                        </li>
+                                        <li class="rd-nav-item">
+                                            <a class="rd-nav-link" href="~/iTunes.cshtml">iTunes</a>
+                                        </li>
+                                        <li class="rd-nav-item">
+                                            <a class="rd-nav-link" href="~/Nintendo.cshtml">Nintendo</a>
+                                        </li>
+                                        <li class="rd-nav-item">
+                                            <a class="rd-nav-link" href="~/PStation.cshtml">PStation</a>
+                                        </li>
+                                        <li class="rd-nav-item">
+                                            <a class="rd-nav-link" href="~/XBox.cshtml">Xbox</a>
+                                        </li>
+                                        <li class="rd-nav-item">
+                                            <a class="rd-nav-link" href="~/Blizzard.cshtml">Blizzard</a>
+                                        </li>
+                                        <li class="rd-nav-item">
+                                            <a class="rd-nav-link" href="~/KarmaCoin.cshtml">Karma Coin</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="section section-intro context-dark">
+            <div class="intro-bg" style="background: url(images/portada.jpg) no-repeat;background-size:cover;background-position: top center;"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 text-center">
+                        <h1 class="font-weight-bold wow fadeInLeft">MULTISERVICIOS</h1>
+                        <p class="intro-description wow fadeInRight">
+                            Tienda multiservicios te ofrece GiftCards para videojuegos, Chucheria, Regalos, Peluches,
+                            Videos entre muchos otros servicios. Visitanos!!!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        @RenderBody()
+        <footer class="section footer-classic section-sm">
+            <div class="container">
+                <div class="row row-30">
+                    <div class="col-lg-3 wow fadeInLeft">
+                        <!--Brand--><img class="brand-logo-dark" src="~/images/logo.jpeg" alt="" width="100" height="17" />
+                        <p class="footer-classic-description offset-top-0 offset-right-25">
+                            VISITANOS!!!
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-sm-8 wow fadeInUp">
+                        <P class="footer-classic-title">Contacto</P>
+                        <div class="d-block offset-top-0">Shopping IC Norte Hipodromo, Local Nro. 3, Nivel 1</div><p>(+591) 73229219</p>
+                        <ul>
+                            <li>Lunes a Domingos:<span class="d-inline-block offset-left-10 text-white">3:00 PM - 7:00 PM</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
+                        <P class="footer-classic-title">GiftCards</P>
+                        <ul class="footer-classic-nav-list">
+                            <li><a href="~/Google.cshtml">Google</a></li>
+                            <li><a href="~/Blizzard.cshtml">Blizzard</a></li>
+                            <li><a href="~/iTunes.cshtml">iTunes</a></li>
+                            <li><a href="~/KarmaCoin.cshtml">KarmaCoin</a></li>
+                            <li><a href="~/Nintendo.cshtml">Nintendo</a></li>
+                            <li><a href="~/PStation.cshtml">PStation</a></li>
+                            <li><a href="~/XBox.cshtml">Xbox</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
+                            @if (IsPost)
+                            {
+                                string nombre = Request["nombre"];
+                                string numero = Request["numero"];
+                                    var insertQuery = @"INSERT INTO Clientes (nombre, celular) VALUES (@0, @1)";
+                                    db.Execute(insertQuery, nombre, numero);
+                                
+                                <p>
+                                    Gracias por suscribirte @nombre, <br />
+                                    recibirás mensajes al número @numero
+                                </p>
+                            }
+                            else
+                            {
+                                <P class="footer-classic-title">Suscribete para promociones</P>
+                                <form class="text-left footer-classic-subscribe-form" method="post">
+                                    <div class="form-wrap">
+                                        <input class="form-input form-control-last-child" id="subscribe-nombre" type="text" name="nombre" placeholder="Tu nombre">
+                                    </div>
+                                    <div class="form-wrap">
+                                        <input class="form-input form-control-last-child" id="subscribe-number" type="text" name="numero" placeholder="WhatsApp">
+                                    </div>
+                                    <button class="button button-primary button-circle" type="submit">Suscribirme</button>
+                                </form>
+                                <p>Se el primero en enterarte de nuestras ofertas y promociones a traves de nuestro grupo de WhatsApp para clientes.</p>
+                            }
+                    </div>
+                </div>
+            </div>
+            <div class="container wow fadeInUp" data-wow-delay=".4s">
+                <div class="footer-classic-aside">
+                    <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. Todos los derechos reservados. Desarrollado por Fernando Guzman y Dora Solares.</p>
+                    <ul class="social-links">
+                        <li><a class="fa fa-facebook" href="https://www.facebook.com/Multiservicios-781805652156275/"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

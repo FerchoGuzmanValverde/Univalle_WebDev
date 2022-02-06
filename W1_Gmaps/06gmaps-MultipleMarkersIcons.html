@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Jquery</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Drag and Drop en HTML5">
+    <meta name="keywords" content="Drag and Drop, HTML5, Internet">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<style type="text/css">
+  #map{
+    height: 400px;
+    width: 100%;
+  }
+</style>
+
+</head>
+<body>
+<div class="container">
+  <h1>Google Maps API</h1>
+  div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Cochabamba</h4>
+
+            <div id="map"></div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+https://developers.google.com/maps/documentation/javascript/examples/icon-simple
+
+  <script type="text/javascript">
+    
+    var divmapa=document.getElementById("map");
+    function initMap(){
+      //opciones del mapa
+      var options = {
+        zoom:12,
+        center:{lat:-17.365858, lng:-66.175234},
+        mapTypeId: 'satellite'
+      }
+      var map=new google.maps.Map(divmapa, options);
+
+      addMarker({coordenadas:{lat:-17.400815,lng:-66.167412}, icon:'https://maps.google.com/mapfiles/ms/icons/sportvenue.png', content:'<h1>Mi pinche casa</h1>'}); //casa
+
+      addMarker({coordenadas:{lat:-17.402033,lng: -66.173593}, icon:'https://maps.google.com/mapfiles/ms/icons/arts.png', content:'<h1>El parque esta sucio</h1>'});// parque
+
+      addMarker({coordenadas:{lat:-17.415425, lng:-66.164596}, icon:'https://maps.google.com/mapfiles/ms/icons/cabs.png', content:'<h1>No conozco esta calle</h1>'});// calle
+
+      //Funcion add marker
+      function addMarker(props)
+      {
+        var marker = new google.maps.Marker({
+          position: props.coordenadas,
+          map: map,
+          icon: props.icon,
+          content: props.content
+        });
+
+      if(props.content)
+      {
+        var infoWindow=new google.maps.InfoWindow({
+          content:props.content
+        });
+        marker.addListener('click', function(){
+        infoWindow.open(map,marker)
+        });
+      }
+    }
+
+      //para abrir infoWindow cuando se carga el mapa
+      //google.maps.event.trigger(marker, 'click');
+    }
+
+  </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3XKmfpAenBk3n4q2LVJtsHl51zeOFmVs&callback=initMap">
+    </script>
+
+  </body>
+</html>

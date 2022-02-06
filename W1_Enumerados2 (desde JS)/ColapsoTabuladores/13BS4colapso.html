@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aprendiendo Bootstrap">
+    <meta name="keywords" content="Bootstrap, Twitter, Responsivo">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+
+<div class="container">
+
+  <h2>Colapso simple</h2>
+  <p>Click en el botón para mostrar y ocultar el elemento</p>
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Colapso simple</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+
+
+  <h2>Acordeon</h2>
+  <div id="accordion">
+
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum..
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+          Collapsible Group Item #2
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum..
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum..
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+          Collapsible Group Item #4
+        </a>
+      </div>
+      <div id="collapseFour" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum..
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  	  
+    
+  </body>
+</html>

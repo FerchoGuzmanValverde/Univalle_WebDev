@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Primavera Coca-Cola</title>
+    <meta name="author" content="Fernando Guzman Valverde">
+    <link rel="stylesheet" type="text/css" media="screen" href="EstiloIndex.css" />
+</head>
+<body>
+    <div class="lado"></div>
+    <div class="contenido">
+        <header>
+            <img src="imagenes/02.png"/>
+            <h1>Promo Coca-Cola</h1>
+        </header>
+        <div class="productos">
+            <h1>Mira aqui nuestros productos:</h1>
+            <img src="imagenes/04.jpg"/>
+            <ul>
+                <li><h3>Mini - 1,50 Bs.</h3></li>
+                <li><h3>Retornable - 2 lts. - 6,50 Bs.</h3></li>
+                <li><h3>Familiar - 3 lts. - 1,50 Bs.</h3></li>
+            </ul>
+        </div>
+        <div class="registro">
+            <h1>Registrate con Nosotros:</h1>
+            <form name="PersonaRegistro">
+                <label>Nombres:</label>
+                <input type="text" name="nombre" required placeholder="Nombre"/><br><br>
+                <label>Apellidos:</label>
+                <input type="text" name="apellidos" required placeholder="Apellidos"/><br><br>
+                <label>Fecha de Nacimiento:</label>
+                <input type="date" name="fechaNacido" required/><br><br>
+                <label>CI:</label>
+                <input type="number" name="ci" required placeholder="*******"/><br><br>
+                <label>Ciudad:</label>
+                <select name="ciudad" required>
+                    <option value="CBBA">Chochabamba</option>
+                    <option value="SCZ">Santa Cruz</option>
+                    <option value="LPZ">La Paz</option>
+                    <option value="SCR">Sucre</option>
+                    <option value="ORRO">Oruro</option>
+                </select><br><br>
+                <label>E-mail:</label>
+                <input type="email" name="correo" required placeholder="correo@cocacola.com"/>
+            </form>
+        </div>
+        <div class="promo">
+            <video autoplay>
+                <source src="imagenes/Lunes.mp4">
+            </video>
+            <img src="imagenes/03.jpg"/>
+        </div>
+        <footer>
+            <h2>Siguenos en Nuestras Redes Sociales:</h2>
+            <nav class="enlaces">
+                <a href=""><img src="imagenes/facebook.png"></a>
+                <a href=""><img src="imagenes/instagram.png"></a>
+                <a href=""><img src="imagenes/twitter.png"></a>
+            </nav>
+        </footer>
+    </div>
+    <div class="lado"></div>
+</body>
+</html>

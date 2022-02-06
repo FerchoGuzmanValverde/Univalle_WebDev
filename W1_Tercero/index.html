@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inicio</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Página de inicio">
+    <meta name="keywords" content="empresa, productos, servicios">
+    <meta name="author" content="Juan Pérez">
+  </head>
+  <body>
+    <nav>
+      <h1>Inicio</h1>
+      <a href="index.html" target="_self">Ir a Inicio</a>
+      <a href="productos.html" target="_self">Ir a Productos</a>
+      <a href="contactos.html" target="_self">Ir a Contactos</a>
+    </nav>
+    <main>
+      <!--Tablas en HTML-->
+      <!--<th> son columnas para tableHeads and <td> son columnas para table body y table footer-->
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Cursos</th><th>Costos</th><th>Inicio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <audio controls autoplay>
+                <source src="audio/cool.wav" type="audio/wav">
+                <source src="audio/cool.mp3" type="audio/mpeg">
+                <source src="audio/cool.m4a" type="audio/mp4">
+                <source src="audio/cool.ogg" type="audio/ogg">
+                <p>Tu navegador no Soporta el Audio</p>
+              </audio>
+              </td>
+              <td>90$</td>
+              <td>02-Septiembre</td>
+          </tr>
+          <tr>
+            <td><ins>HTML</ins></td>
+            <td><ins>50%</ins></td>
+            <td><ins>10-Septiembre</ins></td>
+          </tr>
+          <tr>
+            <td><del>CSS</del></td>
+            <td><del>60%</del></td>
+            <td><del>15-Octubre</del></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" style="text-align: center;">Cbba 20 de Agosto, 2018</td>
+          </tr>
+        </tfoot>
+      </table>
+      </main>
+    <aside>
+      <!--Audio y Video En HTML5-->
+      <h2>Videos en HTML5</h2>
+      <video width="300" controls autoplay poster="img/poster.jpg">
+        <!--La ruta de video se especifica con el tag source
+        Poster es para mostrar poster dentro del video-->
+        <source src="video/code.mp4" type="video/mp4">
+        <source src="video/code.webm" type="video/webm">
+        <source src="video/code.ogv" type="video/ogv">
+        <p>Tu navegador no soporta el video</p>
+      </video>
+      <h2>Audio en HTML5</h2>
+      <audio style="width: 800px" controls autoplay>
+        <source src="audio/cool.wav" type="audio/wav">
+        <source src="audio/cool.mp3" type="audio/mpeg">
+        <source src="audio/cool.m4a" type="audio/mp4">
+        <source src="audio/cool.ogg" type="audio/ogg">
+        <p>Tu navegador no Soporta el Audio</p>
+      </audio>
+    </aside>
+  </body>
+</html>

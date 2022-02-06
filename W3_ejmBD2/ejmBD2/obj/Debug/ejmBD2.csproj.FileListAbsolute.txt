@@ -1,0 +1,12 @@
+C:\Users\Usuario\Desktop\ejmBD2\ejmBD2\bin\ejmBD2.dll.config
+C:\Users\Usuario\Desktop\ejmBD2\ejmBD2\bin\ejmBD2.dll
+C:\Users\Usuario\Desktop\ejmBD2\ejmBD2\bin\ejmBD2.pdb
+C:\Users\Usuario\Desktop\ejmBD2\ejmBD2\obj\Debug\ejmBD2.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\ejmBD2\ejmBD2\obj\Debug\ejmBD2.dll
+C:\Users\Usuario\Desktop\ejmBD2\ejmBD2\obj\Debug\ejmBD2.pdb
+C:\Users\usuario\Downloads\ejmBD2\ejmBD2\bin\ejmBD2.dll.config
+C:\Users\usuario\Downloads\ejmBD2\ejmBD2\bin\ejmBD2.dll
+C:\Users\usuario\Downloads\ejmBD2\ejmBD2\bin\ejmBD2.pdb
+C:\Users\usuario\Downloads\ejmBD2\ejmBD2\obj\Debug\ejmBD2.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Downloads\ejmBD2\ejmBD2\obj\Debug\ejmBD2.dll
+C:\Users\usuario\Downloads\ejmBD2\ejmBD2\obj\Debug\ejmBD2.pdb

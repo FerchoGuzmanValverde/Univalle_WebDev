@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="descripcion" content="Pagina">
+	<meta name="keywords" content="Nose">
+	<meta name="author" content="Fernando Guzman">
+</head>
+<body>
+	<form action="registrar.php" method="POST" novalidate>
+		<fieldset>
+			<legend>Ciudad de nacimiento</legend>
+			<select name="ciudad">
+				<option value="Cbba">Cochambamba</option>
+				<option value="SCZ">Santa Cruz</option>
+				<option value="LPZ" selected>La Paz</option>
+			</select>
+			<br>
+			<!--Datalist-->
+			<label>Pasatiempos:</label>
+			<input list="dlist" name="idpasatiempos">
+			<datalist id="dlist">
+				<option value="musica">
+				<option value="deportes">
+				<option value="viajes">
+			</datalist>
+			<br>
+			<!--CheckBoxes-->
+			<input type="checkbox" name="Lenguaje1">HTML<br>
+			<input type="checkbox" name="Lenguaje2" checked>CSS<br>
+			<input type="checkbox" name="Lenguaje3">JavaScript<br>
+			<!--Colores-->
+			<label>Color favorito:</label><br>
+			<input type="color" name="colorfav"><br>
+			<!--date-->
+			<label>Ingresa la fecha de tu nacimiento:</label><br>
+			<input type="date" name="nacimiento"><br>
+			<!--Cumple-->
+			<label>Ingresa la fecha de tus cumpleaños:</label><br>
+			<input type="date" name="Cumple" min="2018-01-01" max="2018-12-31"><br>
+			<label>Seleccione fecha y hora de su registro:</label><br>
+			<input type="datetime-local" name="fechahora"><br>
+			<label>Que mes deseas empezar a trabajar:</label><br>
+			<input type="month" name="mestrabajo"><br>
+			<label>Que semana del año deseas tener vacaciones:</label><br>
+			<input type="week" name="semanavacaciones"><br>
+			<label>A que hora deseas empezar a trabajar:</label><br>
+			<input type="time" name="horatrabajo" value="08:35">
+
+			<!--emails-->
+			<br>
+			<label>Ingresa tu email</label>
+			<input type="email" name="correo" placeholder="Ingresa tu correo" required><br>
+
+			<!--url-->
+			<br>
+			<label>Ingresa tu pagina</label><br>
+			<input type="url" name="sitioweb" placeholder="http://www.tusitio.com" required><br>
+
+			<!--range-->
+			<br>
+			<label>Ingresa cuanto sabe de HTML:</label>
+			<input type="range" name="saberhtml" min="0" max="10"><br>
+
+			<!--number-->
+			<br>
+			<label>Ingresa tu edad</label><br>
+			<input type="number" name="edad" min="0" max="99"><br>
+
+			<!--password-->
+			<br>
+			<label>Ingresa tu clave</label><br>
+			<input type="password" name="clave">
+		</fieldset>
+
+		<!--botones-->
+		<button type="reset" disabled>Limpiar formulario</button>
+		<input type="reset" name="boton2" value="resetear">
+		<button type="submit" name="boton1">Registrar datos</button>
+		<input type="submit" name="boton1" value="Mi botonsito">
+	</form>
+</body>
+</html>

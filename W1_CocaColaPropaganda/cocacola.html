@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Registro de personas</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Formulario de Registro de personas">
+    <meta name="keywords" content="Registro, información, personas">
+    <meta name="author" content="Juan Pérez">
+    <link rel="stylesheet" type="text/css" href="css/01maqueta.css">
+  </head>
+  <body>
+
+  	
+	 <header>
+	 	<img src="imagenes/01.jpg" class="panoramica">
+	 </header>
+	 <div class="contenido">
+		 <main>
+		 	<h1>Registro de Visitantes</h1>
+
+		 	<form action="registro.php" method="POST">
+              <label>Nombre completo (obligatorio):</label>
+                <input type="text" name="nombre" placeholder="Usuario" required>
+              <br>
+              <label>Fecha de nacimiento:</label>
+                <input type="date" name="fecha" value="1990-01-01">
+              <br>
+              <label>Carnet de Identidad C.I. (obligatorio):</label>
+                <input type="text" name="ci" placeholder="Carnet de identidad" required>
+              <br>
+              <label>Ciudad de nacimiento</label>
+                <select name="ciudad">
+                  <option value="CBBA">Cochabamba</option>
+                  <option value="SCZ">Santa Cruz</option>
+                  <option value="LPZ">La Paz</option>
+
+                </select>
+                <br>
+                <label>Correo electronico:</label>
+                <input type="text" name="correo" placeholder="Correo electronico">
+
+            <input type="submit" name="enviar" value="Registrar Usuario">
+          </form>
+		 	
+		 </main>
+		 <aside>
+		 	<article>
+		 			<video controls preload="metadata">
+		 				<source src="imagenes/lunes.mp4" type="video/mp4">
+		 				<p>El navegador no soporta el video</p>		 				
+		 			</video>
+		 			<br><br>
+		 			<a href="imagenes/03.jpg" target="_blank">
+		 			<img src="imagenes/03.jpg" class="panoramica"></a>	 		
+		 	</article>
+		 	<article>
+		 		
+		 		<table>
+		 			<thead>
+		 				<tr>
+		 					<th>Producto</th>
+		 					<th>Precio Bs.</th>
+		 				</tr>
+		 			</thead>
+		 			<tbody>
+		 				<tr>
+		 					<td>Mini</td>
+		 					<td>1,50</td>
+		 				</tr>
+		 				<tr>
+		 					<td>2lts. Retornable</td>
+		 					<td>6,50</td>
+		 				</tr>
+		 				<tr>
+		 					<td>Familiar 3lts.</td>
+		 					<td>11,00</td>
+		 				</tr>
+		 			</tbody>
+		 		</table>
+
+		 	</article>
+		 </aside>
+	 </div>
+
+	 <footer>
+		 <div class="contenidopie">
+			 	<div class="rrss">
+			 		<a href="http://www.facebook.com/cocacola" target="_blank">
+			 		<img src="imagenes/facebook.png" class="imgredes"></a>
+			 		<a href="http://www.instagram.com/cocacola" target="_blank">
+			 		<img src="imagenes/instagram.png" class="imgredes"></a>
+			 		<a href="http://www.twitter.com/cocacola" target="_blank">
+			 		<img src="imagenes/twitter.png" class="imgredes"></a>
+			 	</div>
+			 	<div class="copy">The Coca-Cola Company &copy; 2018</div>
+		 </div>
+	 </footer>
+	  
+    
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Pagina de mi practica">
+	<meta name="keywords" content="practica">
+	<meta name="author" content="Fernando Guzman Vlaverde">
+</head>
+<body>
+	<header>
+		<div class="buscador"></div>
+		<img src="images/feicobol.jpg" width="100%">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="empresa.html">Empresa</a></li>
+			<li><a href="contactos.html">Contactos</a></li>
+		</ul>
+	</nav>
+		<main>
+			<section>
+				<article>
+					<form action="guardar.php">
+						<fieldset>
+							<legend>Acceso al Sistema</legend>
+							<label>Usuario(obligatorio):</label>
+							<input type="text" name="nomUsuario" required placeholder="Usuario">
+							<label>Password(obligatorio):</label>
+							<input type="Password" name="contrasenia" required placeholder="Contraseña">
+						</fieldset>
+						<fieldset>
+							<legend>Tus datos Personales</legend>
+							<label>Nombre(s) y Apellido(s) (obligatorio):</label>
+							<input type="text" name="nombreCompleto" required placeholder="Nombre Completo">
+						</fieldset>
+						<fieldset>
+							<legend>Tus conocimientos:</legend>
+							<p>Selecciona tus conocimientos y grado de dominio:</p>
+							<input type="checkbox" name="PHP">PHP
+							<input type="range" name="PHPcant" min="0" max="10">  
+							<p>Selecciona tus conocimientos y grado de dominio:</p>
+							<input type="checkbox" name="HTML5">HTML5
+							<input type="range" name="HTML5cant" min="0" max="10">
+							<p>Selecciona tus conocimientos y grado de dominio:</p>
+							<input type="checkbox" name="CSS">CSS
+							<input type="range" name="CSScant" min="0" max="10">
+						</fieldset>
+						<fieldset>
+							<legend>Souvenirs</legend>
+							<p>Selecciona tu color de camiseta</p>
+							<input type="color" name="colorcamiseta" value="#FF0000">
+						</fieldset>
+						<input type="reset" name="limpiar" value="Reinicia Formulario">
+						<input type="submit" name="cargar" value="Registrar Usuario">
+					</form>
+				</article>
+				<article>
+					<img src="images/google.jpg">
+				</article>
+				<article>
+					<img src="images/googledev.jpg">
+				</article>
+				<article>
+					<img src="images/wtechmarkers.jpg">
+				</article>
+			</section>
+		</main>
+		<aside>
+			<img src="images/banner.jpg">
+		</aside>
+		<footer>
+			<div class="rrss"></div>
+			<p>FEICOBOL &copy; 2018 </p>
+			<img src="images/redes.jpg">
+		</footer>
+
+</body>
+</html>

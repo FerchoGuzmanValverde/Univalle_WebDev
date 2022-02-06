@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Formulario JS</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Aprendiendo formularios">
+	<meta name="keywords" content="JavaScript, Formularios">
+	<meta name="author" content="Fernando Guzman">
+</head>
+<body>
+
+	<form id="form1" action="destino.php" method="post">
+		<input type="text" name="edadUsuario" id="edad">
+		<button type="button" name="button" onclick="evaluarEdad()">Evaluar</button>
+	</form>
+
+	<h1 id="resultado">...</h1>
+
+	<br><br><br><br><br>
+
+
+	<form id="form2" action="destino2.php" method="post">
+		<input type="text" name="nota1" id="nota1">
+		<input type="text" name="nota2" id="nota2">
+		<input type="text" name="nota3" id="nota3">	
+		<button type="button" name="botonNotas" onclick="evaluar()">Evaluar</button>	
+
+		<h2 id="promedio">...</h2>
+		<h2 id="estadoP">...</h2>
+	</form>
+
+	<script type="text/javascript" src="01Condicional.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aprendiendo Bootstrap">
+    <meta name="keywords" content="Bootstrap, Twitter, Responsivo">
+    <meta name="author" content="Fernando Guzman Valverde">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+  	<div class="container"> 
+      <header class="container">
+        <h1>Sueldos</h1>
+      </header>
+      <nav>
+        
+      </nav>
+      <main class="container">
+        <form class="form">
+          <label>Ingrese tipo:</label>
+          <select name="tipo" id="tipo">
+            <option value="Planta">Trabajador de Planta</option>
+            <option value="Contrato">Trabajador de Contrato</option>
+            <option value="Consultor">Trabajador Consultor</option>
+            <option value="Ejecutivo">Trabajador Ejecutivo</option>
+            <option value="Seguridad">Seguridad y MTTO</option>
+          </select><br>
+          <label>Ingrese salario:</label>
+          <input type="text" name="salario" id="salario">
+        </form>
+        <button type="button" name="calcular" onclick="calcular()" class="jumbotron jumbotron-fluid">Calcular</button>
+
+        <br><br><br>
+        <h2>Su salario es:</h2><h2 id="salarioF">...</h2>
+        <h2>Su aporte es:</h2><h2 id="aporte">...</h2>
+      </main>
+      <nav>
+        
+      </nav>
+      <footer>
+        
+      </footer>
+    </div>
+    <script type="text/javascript" src="metodos.js"></script>
+  </body>
+</html>

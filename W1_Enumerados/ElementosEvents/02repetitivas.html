@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aprendiendo Bootstrap">
+    <meta name="keywords" content="Bootstrap, Twitter, Responsivo">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="jumbotron">
+      <h1>Ingrese un numero:</h1>
+      <form id="form" action="registro.php" method="post">
+        <input type="text" name="n1" id="numero1" class="form-control">
+        <button type="button" name="boton" class="btn btn-warning" onclick="generar()">Generar</button>
+      </form>
+      <h1 id="generacion1">...</h1>
+      <h1 id="generacion2">...</h1>
+      <h1 id="generacion3">...</h1>
+      </div>
+    </div>
+  	  
+    <script src="repetitivas.js"></script>
+  </body>
+</html>

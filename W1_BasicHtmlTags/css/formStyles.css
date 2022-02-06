@@ -1,0 +1,41 @@
+input, select {
+	font-family: verdana, Arial, serif;
+	font-size: 32px;
+}
+
+li a{
+	/*links inside the lists*/
+}
+
+li,a{
+	/*links and lists*/
+}
+
+input[type=text], select{
+	/*All input of text type*/
+	width: 100%;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin: 8px 0px;
+}
+
+input[type=submit]{
+	width: 100%;
+	background-color: #4caf50;
+	color: white;
+	padding: 14px 20px;
+	border:none;
+	border-radius: 8px;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+
+article{
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 8px;
+}

@@ -1,0 +1,6 @@
+G:\Univalle\II-2018\ProgAvII\EjerciciosError\TraceApp\bin\TraceApp.dll.config
+G:\Univalle\II-2018\ProgAvII\EjerciciosError\TraceApp\bin\TraceApp.dll
+G:\Univalle\II-2018\ProgAvII\EjerciciosError\TraceApp\bin\TraceApp.pdb
+G:\Univalle\II-2018\ProgAvII\EjerciciosError\TraceApp\obj\Release\TraceApp.dll
+G:\Univalle\II-2018\ProgAvII\EjerciciosError\TraceApp\obj\Release\TraceApp.pdb
+G:\Univalle\II-2018\ProgAvII\EjerciciosError\TraceApp\obj\Release\TraceApp.csprojResolveAssemblyReference.cache

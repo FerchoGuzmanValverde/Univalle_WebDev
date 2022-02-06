@@ -1,0 +1,10 @@
+C:\PROJECTS\Ejercicios\TracePage\bin\TracePage.dll
+C:\PROJECTS\Ejercicios\TracePage\bin\TracePage.pdb
+C:\PROJECTS\Ejercicios\TracePage\obj\Debug\TracePage.csprojResolveAssemblyReference.cache
+C:\PROJECTS\Ejercicios\TracePage\obj\Debug\TracePage.dll
+C:\PROJECTS\Ejercicios\TracePage\obj\Debug\TracePage.pdb
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TracePage\bin\TracePage.dll
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TracePage\bin\TracePage.pdb
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TracePage\obj\Debug\TracePage.csprojResolveAssemblyReference.cache
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TracePage\obj\Debug\TracePage.dll
+n:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\TracePage\obj\Debug\TracePage.pdb

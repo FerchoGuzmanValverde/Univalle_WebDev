@@ -1,0 +1,6 @@
+F:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\ManejarErrores\bin\ManejarErrores.dll.config
+F:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\ManejarErrores\bin\ManejarErrores.dll
+F:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\ManejarErrores\bin\ManejarErrores.pdb
+F:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\ManejarErrores\obj\Release\ManejarErrores.csprojResolveAssemblyReference.cache
+F:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\ManejarErrores\obj\Release\ManejarErrores.dll
+F:\II-2015\ProgAvanzadaII\Asp.Net\EjerciciosError\ManejarErrores\obj\Release\ManejarErrores.pdb

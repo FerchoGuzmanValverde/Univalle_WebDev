@@ -1,0 +1,32 @@
+ul{
+	list-style: none;
+}
+
+a{
+	font-family: Arial, Verdana serif;
+	color: red;
+	text-decoration: none;
+}
+
+/* link pseudo classes
+:link to links no visited yet;
+:visited  to visited links;
+:hover  when mouse is over it;
+:active  when click is active over it;
+*/
+
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: gray;
+}
+
+a:hover{
+	color: green;
+}
+
+a:active{
+	color: yellow;
+}

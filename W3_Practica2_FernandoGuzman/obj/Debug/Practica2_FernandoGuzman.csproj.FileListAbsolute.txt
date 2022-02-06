@@ -1,0 +1,6 @@
+C:\Users\usuario\Desktop\Practica2_FernandoGuzman\bin\Practica2_FernandoGuzman.dll.config
+C:\Users\usuario\Desktop\Practica2_FernandoGuzman\bin\Practica2_FernandoGuzman.dll
+C:\Users\usuario\Desktop\Practica2_FernandoGuzman\bin\Practica2_FernandoGuzman.pdb
+C:\Users\usuario\Desktop\Practica2_FernandoGuzman\obj\Debug\Practica2_FernandoGuzman.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Practica2_FernandoGuzman\obj\Debug\Practica2_FernandoGuzman.dll
+C:\Users\usuario\Desktop\Practica2_FernandoGuzman\obj\Debug\Practica2_FernandoGuzman.pdb

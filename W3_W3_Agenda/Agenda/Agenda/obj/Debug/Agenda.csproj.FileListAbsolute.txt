@@ -1,0 +1,6 @@
+C:\Users\usuario\Desktop\Agenda\Agenda\bin\Agenda.dll.config
+C:\Users\usuario\Desktop\Agenda\Agenda\bin\Agenda.dll
+C:\Users\usuario\Desktop\Agenda\Agenda\bin\Agenda.pdb
+C:\Users\usuario\Desktop\Agenda\Agenda\obj\Debug\Agenda.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Agenda\Agenda\obj\Debug\Agenda.dll
+C:\Users\usuario\Desktop\Agenda\Agenda\obj\Debug\Agenda.pdb

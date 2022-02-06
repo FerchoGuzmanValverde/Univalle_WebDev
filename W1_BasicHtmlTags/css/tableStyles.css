@@ -1,0 +1,48 @@
+table, th, td{
+	border: 1px solid black;
+}
+
+table{
+	border-collapse: collapse;
+	width:  100%;
+}
+
+th{
+	height: 50px;
+}
+
+td{
+	text-align: center;
+}
+
+th, td{
+	padding: 15px;
+}
+
+/*button border and over it effect*/
+
+table, th, td{
+	border: 0px solid black;
+}
+
+th, td{
+	border-bottom: 1px solid #ddd;
+}
+
+tr:hover{
+	background-color: #f5f5f5;
+}
+
+/* Striped table styles */
+
+table, th, td{
+	border: 0px solid black;
+}
+
+tr:nth-child(even){background-color: #f2f2f2; }
+tr:nth-child(odd){background-color: #ddd; }
+
+th{
+	background-color: #4caf50;
+	color: white;
+}

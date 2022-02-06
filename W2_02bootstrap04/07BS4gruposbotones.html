@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aprendiendo Bootstrap">
+    <meta name="keywords" content="Bootstrap, Twitter, Responsivo">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+
+<div class="container">
+
+  <h2>Grupos de Botones</h2>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Opción 1</button>
+    <button type="button" class="btn btn-primary">Opción 2</button>
+    <button type="button" class="btn btn-primary">Opción 3</button>
+  </div>
+
+  <br><br>
+
+  <div class="btn-group w-100 w-100">
+    <button type="button" class="btn btn-primary w-100">Opción 1</button>
+    <button type="button" class="btn btn-primary w-100">Opción 2</button>
+    <button type="button" class="btn btn-primary w-100">Opción 3</button>
+  </div>
+
+  <h2>Tamaños</h2>
+  <!-- lg sm -->
+  <div class="btn-group btn-group-lg">
+    <button type="button" class="btn btn-primary">Opción 1</button>
+    <button type="button" class="btn btn-primary">Opción 2</button>
+    <button type="button" class="btn btn-primary">Opción 3</button>
+  </div>
+
+  <h2>Vertical</h2>
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary">Opción 1</button>
+    <button type="button" class="btn btn-primary">Opción 2</button>
+    <button type="button" class="btn btn-primary">Opción 3</button>
+  </div>
+
+  <h2>Contextual vertical</h2>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Argentina</button>
+    <button type="button" class="btn btn-primary">Brasil</button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Bolivia</button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">La Paz</a>
+          <a class="dropdown-item" href="#">Cochabamba</a>
+          <a class="dropdown-item" href="#">Santa Cruz</a>
+        </div>
+    </div>
+  </div>
+
+  <h2>Contextual horizontal</h2>
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary">Argentina</button>
+    <button type="button" class="btn btn-primary">Brasil</button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Bolivia</button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">La Paz</a>
+          <a class="dropdown-item" href="#">Cochabamba</a>
+          <a class="dropdown-item" href="#">Santa Cruz</a>
+        </div>
+    </div>
+  </div>  
+
+</div>
+
+  	  
+    
+  </body>
+</html>

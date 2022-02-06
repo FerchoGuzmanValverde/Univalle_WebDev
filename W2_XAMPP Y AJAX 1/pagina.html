@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Primera Pagina en AJAX</title>
+</head>
+<body>
+	<div id="contenido">
+		Aqui va contenido
+	</div>
+	<img id="imagen">
+	<button type="button" onclick="cargar()">Solicitar a AJAX</button>
+	<button type="button" onclick="cargarImage()">Solicitar Imagen</button>
+
+	<script type="text/javascript">
+		function cargar(){
+			var contenedor = document.getElementById("contenido");
+
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET","base.txt",true);
+			xhr.onreadystatechange=function(){
+				console.log(xhr.readyState);
+				if(xhr.readyState==4 && xhr.status==200){
+					console.log("Se cargo correctamente");
+					contenedor.innerHTML=xhr.responseText;
+				}
+			}
+			xhr.send();
+		}
+
+		function cargarImage(){
+			var imagen = document.getElementById("imagen");
+
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "imagen.txt", true);
+			xhr.onreadystatechange=function(){
+				console.log(xhr.readyState);
+				if(xhr.readyState==4 && xhr.status==200){
+					console.log("Se cargo correctamente");
+					imagen.src=xhr.responseText;
+				}
+			}
+			xhr.send();
+		}
+	</script>
+</body>
+</html>

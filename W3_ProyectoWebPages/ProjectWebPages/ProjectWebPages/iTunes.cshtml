@@ -1,0 +1,82 @@
+﻿@{
+    Layout = "Layout.cshtml";
+
+    var image1 = @"WatterMarks\iTunes\iTunes5.jpg";
+    var image2 = @"WatterMarks\iTunes\iTunes10.jpg";
+    var image3 = @"WatterMarks\iTunes\iTunes15.jpg";
+    var image4 = @"WatterMarks\iTunes\iTunes25.jpg";
+    var image5 = @"WatterMarks\iTunes\iTunes50.jpg";
+
+    WebImage photo1 = new WebImage(@"images\iTunes\itunes5.jpg");
+    WebImage photo2 = new WebImage(@"images\iTunes\itunes10.jpg");
+    WebImage photo3 = new WebImage(@"images\iTunes\itunes15.jpg");
+    WebImage photo4 = new WebImage(@"images\iTunes\itunes25.jpg");
+    WebImage photo5 = new WebImage(@"images\iTunes\itunes50.jpg");
+
+    photo1.AddTextWatermark("Alicia Alarcon", "White");
+    photo2.AddTextWatermark("Alicia Alarcon", "White");
+    photo3.AddTextWatermark("Alicia Alarcon", "White");
+    photo4.AddTextWatermark("Alicia Alarcon", "White");
+    photo5.AddTextWatermark("Alicia Alarcon", "White");
+
+    photo1.Save(image1);
+    photo2.Save(image2);
+    photo3.Save(image3);
+    photo4.Save(image4);
+    photo5.Save(image5);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div class="container" style="margin-top:30px; margin-bottom:30px;">
+        <div class="row row-30 justify-content-center">
+            <div class="col-xl-3 col-md-4 col-6 wow fadeInDown" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                <div class="pricing-box bg-gray-dark">
+                    <div class="pricing-box-tittle">iTunes de 5$</div>
+                    <div>Bs 45</div>
+                    <hr>
+                    <img src="@image1" style="margin-top:10px; height:250px;" />
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6 wow fadeInDown" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                <div class="pricing-box bg-gray-dark">
+                    <div class="pricing-box-tittle">iTunes de 10$</div>
+                    <div>Bs 85</div>
+                    <hr>
+                    <img src="@image2" style="margin-top:10px; height:250px;" />
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6 wow fadeInDown" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                <div class="pricing-box bg-gray-dark">
+                    <div class="pricing-box-tittle">iTunes de 15$</div>
+                    <div>Bs 4125</div>
+                    <hr>
+                    <img src="@image3" style="margin-top:10px; height:250px;" />
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6 wow fadeInDown" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                <div class="pricing-box bg-gray-dark">
+                    <div class="pricing-box-tittle">iTunes de 25$</div>
+                    <div>Bs 200</div>
+                    <hr>
+                    <img src="@image4" style="margin-top:10px; height:250px;" />
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6 wow fadeInDown" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                <div class="pricing-box bg-gray-dark">
+                    <div class="pricing-box-tittle">iTunes de 50$</div>
+                    <div>Bs 385</div>
+                    <hr>
+                    <img src="@image5" style="margin-top:10px; height:250px;" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

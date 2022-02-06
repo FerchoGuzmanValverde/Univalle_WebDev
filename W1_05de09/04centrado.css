@@ -1,0 +1,13 @@
+.banner{
+	background-color: #ddd;
+	height: 400px;
+	width: 700px;
+	margin: 0px auto;
+	display: flex;
+}
+
+.centrarcontenido{
+	color: blue;
+	font-size: 32px;
+	margin: auto;
+}

@@ -1,0 +1,6 @@
+C:\Users\Usuario\Desktop\ejmBD\ejmBD\bin\ejmBD.dll.config
+C:\Users\Usuario\Desktop\ejmBD\ejmBD\bin\ejmBD.dll
+C:\Users\Usuario\Desktop\ejmBD\ejmBD\bin\ejmBD.pdb
+C:\Users\Usuario\Desktop\ejmBD\ejmBD\obj\Debug\ejmBD.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\ejmBD\ejmBD\obj\Debug\ejmBD.dll
+C:\Users\Usuario\Desktop\ejmBD\ejmBD\obj\Debug\ejmBD.pdb

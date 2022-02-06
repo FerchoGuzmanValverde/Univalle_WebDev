@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "Layout.cshtml";
+
+    var image1 = @"WatterMarks\Karma\Karma10.jpg";
+    var image2 = @"WatterMarks\Karma\Karma25.jpg";
+
+    WebImage photo1 = new WebImage(@"images\KarmaCoin\karma10.jpg");
+    WebImage photo2 = new WebImage(@"images\KarmaCoin\karma25.jpg");
+
+    photo1.AddTextWatermark("Alicia Alarcon", "White");
+    photo2.AddTextWatermark("Alicia Alarcon", "White");
+
+    photo1.Save(image1);
+    photo2.Save(image2);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div class="container" style="margin-top:30px; margin-bottom:30px;">
+        <div class="row row-30 justify-content-center">
+            <div class="col-xl-3 col-md-4 col-6 wow fadeInDown" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                <div class="pricing-box bg-gray-dark">
+                    <div class="pricing-box-tittle">Karma Coin de 10$</div>
+                    <div>Bs 85</div>
+                    <hr>
+                    <img src="@image1" style="margin-top:10px; height:250px;" />
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6 wow fadeInDown" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                <div class="pricing-box bg-gray-dark">
+                    <div class="pricing-box-tittle">Karma Coin de 25$</div>
+                    <div>Bs 160</div>
+                    <hr>
+                    <img src="@image2" style="margin-top:10px; height:250px;" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

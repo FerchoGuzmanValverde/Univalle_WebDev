@@ -1,0 +1,20 @@
+section{
+	background-color: #ddd;
+	padding: 20px;
+	display: flex; /*iniciamos logica flex */
+}
+
+.contenidoprincipal{
+	flex: 20;
+	order: 2;
+}
+
+.publicidad{
+	flex: 10;
+	order: 1;
+}
+
+.redes{
+	flex: 10;
+	order: 3;
+}

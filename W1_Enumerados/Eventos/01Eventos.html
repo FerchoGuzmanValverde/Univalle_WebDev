@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aprendiendo Bootstrap">
+    <meta name="keywords" content="Bootstrap, Twitter, Responsivo">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+
+<div class="container">
+
+  
+  <h2>Imagenes en tarjetas</h2>
+  <div class="card" style="width:200px">
+  <img class="card-img-top" src="https://cactusthemes.com/blog/wp-content/uploads/2018/01/tt_avatar_small.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Seleccione una opción</h4>
+    <p class="card-text">
+      <form id="form1"  name="form1"  action="guardar.php" method="post">
+        <select id="marcas" onchange="generar()" class="form-control">
+          <option value="Audi">Audi</option>
+          <option value="BMW">BMW</option>
+          <option value="Mercedes">Mercedes</option>
+          <option value="Volvo">Volvo</option>
+        </select>
+        <h6 id="demo">....</h6>
+      </form>
+    </p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  
+
+</div>
+
+  	  <script src="01Eventos.js"></script>
+    
+  </body>
+</html>

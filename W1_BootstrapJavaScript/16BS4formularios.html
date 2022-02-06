@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aprendiendo Bootstrap">
+    <meta name="keywords" content="Bootstrap, Twitter, Responsivo">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+
+<div class="container">
+
+  <h1>Formulario básico</h1>
+
+   <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form> 
+
+  <h1>Formulario inline</h1>
+
+   <form class="form-inline" action="/action_page.php">
+      <label for="email" class="mr-sm-2">Email address:</label>
+      <input type="email" class="form-control mb-2 mr-sm-2" id="email">
+      <label for="pwd" class="mr-sm-2">Password:</label>
+      <input type="password" class="form-control mb-2 mr-sm-2" id="pwd">
+      <div class="form-check mb-2 mr-sm-2">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </form> 
+
+    <h1>Inputs</h1>
+
+    <div class="form-group">
+        <label for="usr">Name:</label><input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label><input type="password" class="form-control" id="pwd">
+    </div> 
+
+     <h1>Textarea</h1>
+
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div> 
+
+    <h1>Input groups</h1>
+    <form>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Username">
+      </div>
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Your Email">
+        <div class="input-group-append">
+          <span class="input-group-text">@example.com</span>
+        </div>
+      </div>
+    </form> 
+
+    <h1>Input Groups Sizing</h1>
+     <form>
+        <div class="input-group mb-3 input-group-sm">
+           <div class="input-group-prepend">
+             <span class="input-group-text">Small</span>
+          </div>
+          <input type="text" class="form-control">
+        </div>
+     </form>
+      <form>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Default</span>
+          </div>
+          <input type="text" class="form-control">
+        </div>
+      </form>
+      <form>
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Large</span>
+          </div>
+          <input type="text" class="form-control">
+        </div>
+      </form> 
+
+  <h1>Input boxes con checkboxes y radios</h1>
+  <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="checkbox">
+        </div>
+      </div>
+      <input type="text" class="form-control" placeholder="Some text">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+        <input type="radio">
+      </div>
+    </div>
+    <input type="text" class="form-control" placeholder="Some text">
+  </div> 
+
+  <h1>Input group buttons</h1>
+  <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary" type="button">Basic Button</button>
+      </div>
+      <input type="text" class="form-control" placeholder="Some text">
+  </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Search">
+      <div class="input-group-append">
+        <button class="btn btn-success" type="submit">Go</button>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Something clever..">
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="button">OK</button>
+        <button class="btn btn-danger" type="button">Cancel</button>
+      </div>
+    </div> 
+
+    <h1>Input group con boton drop down</h1>
+    <div class="input-group mt-3 mb-3">
+        <div class="input-group-prepend">
+          <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+            Dropdown button
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>
+        </div>
+        <input type="text" class="form-control" placeholder="Username">
+    </div> 
+
+</div>
+
+  	  
+    
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Storage</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Storage">
+    <meta name="keywords" content="Storage, HTML5, Internet">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+	<div class="container">
+		<button onclick="contarClicks()" class="btn btn-primary">Contador de Clicks</button>
+		<button onclick="resetear()" class="btn btn-warning">Resetear</button>
+		<br><br>
+		<div id="respuesta"></div>
+	</div>
+
+	<script type="text/javascript">
+		function contarClicks()
+		{
+			if(typeof(Storage) !== "undefined")
+			{
+				//si usamos storage
+				if(localStorage.contadorClicks)
+				{
+					localStorage.contadorClicks = Number(localStorage.contadorClicks) + 1;
+				}
+				else
+				{
+					localStorage.contadorClicks = 1;
+				}
+				document.getElementById("respuesta").innerHTML = "Clickeaste " + localStorage.contadorClicks + " Veces";
+			}
+			else
+			{
+				document.getElementById("respuesta").innerHTML = "Su navegador no soporta storage";
+			}
+		}
+		function resetear()
+		{
+			document.getElementById("respuesta").innerHTML = "";
+			localStorage.contadorClicks = 0;
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aprendiendo Bootstrap">
+    <meta name="keywords" content="Bootstrap, Twitter, Responsivo">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Validaciones</h4>
+        <p class="card-text">
+          <form id="form1" name="formulario" action="06eventos.html" method="post">
+            <input type="text" name="nombre" id="n" placeholder="Ingrese su nombre" class="form-control">
+
+            <input type="text" name="edad" id="e" placeholder="Ingrese su edad" class="form-control">
+
+            <select id="pais" name="pais" class="form-control">
+              <option value="argentina">Argentina</option>
+              <option value="bolivia">Bolivia</option>
+              <option value="brasil">Brasil</option>
+            </select>
+
+            <input type="text" name="pass1" id="pass1" placeholder="Ingrese su contraseña" class="form-control">
+
+            <input type="text" name="pass2" id="pass2" placeholder="Ingrese nuevamente su contraseña" class="form-control">
+
+            <button type="button" class="btn btn-primary btn-block" onclick="validarDatos()">Enviar Datos</button>
+          </form>
+          </form>
+        </p>
+      </div>
+    </div>
+      </div>
+    </div>
+    <script src="05Eventos.js"></script>
+  </body>
+</html>

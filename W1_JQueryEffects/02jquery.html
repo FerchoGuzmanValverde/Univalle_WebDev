@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>jQuery</title>
+    <meta charset="utf-8">
+    <meta name="description" content="jQuery">
+    <meta name="keywords" content="jQuery, HTML5, Javascript">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>jQuery</h1>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Selectores</h4>
+            
+            <img src="01rrss.png" id="1">
+            <p>click</p>
+            <img src="02rrss.png" id="2">
+            <p>doble click</p>
+            <img src="03rrss.png" id="3">
+            <p>mouseenter</p>
+            <img src="04rrss.png" id="4">
+            <p>mouseleave</p>
+            <img src="05rrss.png" id="5">
+            <p>mousedown</p>
+            <img src="06rrss.png" id="6">
+            <p>mouseup</p>
+
+            <input type="text" id="7" class="form-control">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    //jQuery
+
+    $('#1').click(function(){
+      $(this).hide(); //el this se refiere a ese mismo elemento
+    });
+
+    $('#2').dblclick(function(){
+      $(this).hide();
+    });
+
+    $('#3').mouseenter(function(){
+      $(this).hide(); 
+    });
+
+    $('#4').mouseleave(function(){
+      $(this).hide(); 
+    });
+
+    $('#5').mousedown(function(){
+      $(this).hide(); 
+    });
+
+    $('#6').mouseup(function(){
+      $(this).hide(); 
+    });
+
+    $('#7').on({
+      focus:function(){
+        $(this).css("background-color", "#deefff");
+      },
+      mouseleave:function(){
+        $(this).css("background-color", "#ffffff");
+      }
+    });
+  });
+
+
+  /*$(function(){
+    //jQuery
+
+
+  });*/
+</script>
+  </body>
+</html>

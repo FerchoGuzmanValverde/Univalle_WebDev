@@ -1,0 +1,6 @@
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesASP\ControlesASP\bin\ControlesASP.dll.config
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesASP\ControlesASP\bin\ControlesASP.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesASP\ControlesASP\bin\ControlesASP.pdb
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesASP\ControlesASP\obj\Debug\ControlesASP.csproj.CoreCompileInputs.cache
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesASP\ControlesASP\obj\Debug\ControlesASP.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesASP\ControlesASP\obj\Debug\ControlesASP.pdb

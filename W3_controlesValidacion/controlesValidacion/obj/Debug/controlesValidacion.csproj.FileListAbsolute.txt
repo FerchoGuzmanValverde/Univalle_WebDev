@@ -1,0 +1,110 @@
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\controlesValidacion.dll.config
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\controlesValidacion.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\controlesValidacion.pdb
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\csc.exe
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\csc.exe.config
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\csc.rsp
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\csi.exe
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\csi.exe.config
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\csi.rsp
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.AppContext.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Collections.Immutable.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Console.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.Compression.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.FileSystem.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.Pipes.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.AccessControl.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Claims.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Principal.Windows.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.ValueTuple.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Xml.XPath.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\vbc.exe
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\vbc.exe.config
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\vbc.rsp
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\VBCSCompiler.exe
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\roslyn\VBCSCompiler.exe.config
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\obj\Debug\controlesValidacion.csprojAssemblyReference.cache
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\obj\Debug\controlesValidacion.csproj.CoreCompileInputs.cache
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\obj\Debug\controlesValidacion.csproj.CopyComplete
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\obj\Debug\controlesValidacion.dll
+C:\ASP.NET\programas\controlesValidacion\controlesValidacion\obj\Debug\controlesValidacion.pdb
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\controlesValidacion.dll.config
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\controlesValidacion.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\controlesValidacion.pdb
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\csc.exe
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\csc.exe.config
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\csc.rsp
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\csi.exe
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\csi.exe.config
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\csi.rsp
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.AppContext.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Collections.Immutable.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Console.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.Compression.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.FileSystem.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.IO.Pipes.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Reflection.Metadata.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.AccessControl.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Claims.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.ValueTuple.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Xml.XPath.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\vbc.exe
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\vbc.exe.config
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\vbc.rsp
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\VBCSCompiler.exe
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\roslyn\VBCSCompiler.exe.config
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\obj\Debug\controlesValidacion.csprojResolveAssemblyReference.cache
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\obj\Debug\controlesValidacion.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\controlesValidacion\controlesValidacion\obj\Debug\controlesValidacion.pdb

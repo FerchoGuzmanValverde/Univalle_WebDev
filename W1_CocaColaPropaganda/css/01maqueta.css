@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Lobster');
+
+body{
+	background-color: #ff0000;
+	font-family: 'Lobster', cursive;
+}
+
+h1{
+	color: white;
+}
+
+label{
+	color: yellow;
+	font-size: 20px;
+}
+
+video{
+	width: 100%;
+}
+
+header{
+}
+
+img.panoramica{
+	width: 100%;
+}
+
+/***
+.contenido{
+	display: flex; /* primer flex */
+/*** } */
+
+
+main{
+	/*background-color: yellow;*/
+	flex: 2;
+	padding: 10px;
+}
+
+aside{
+	/* background-color: green; */
+	flex: 1;
+	/*** display: flex; /* segundo flexbox */
+	flex-direction: column; /* horizontal */
+}
+
+article{
+	/* background-color: lime;*/
+	padding: 10px;
+}
+
+aside{
+	/* background-color: aqua; */
+	flex: 1;
+}
+
+.contenidopie{
+	/*** display: flex; /* primer flex */
+}
+
+.copy{
+	flex: 1;
+	/* background-color: green; */
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.rrss{
+	flex: 2;
+	/* background-color: orange; */
+	text-align: center;
+}
+
+.imgredes{
+	width: 60px;
+	padding-left: 20px;
+}
+
+
+/* tabla */
+
+table, th, td {
+   border: 1px solid black;    /* borde */
+   font-family: 'Caveat Brush', cursive;
+   font-family: 'Lobster', cursive;
+   font-size: 20px;
+}
+
+table{
+    /* border-collapse: collapse; /* colapsar bordes */ 
+    width: 100%; /* ancho */
+}
+
+th{
+    height: 50px; /* alto titulares */
+    vertical-align: bottom; /* alineacion vertical */
+}
+
+td{
+    text-align: center; /* centra texto en td */
+}
+
+th, td {
+    padding: 15px; /* desplazamiento interno */
+}
+
+
+/* otros estilos de tabla: EFECTO SOBRE*/
+table, th, td {
+   border: 0px;    /* borde */
+}
+
+th, td {
+    border-bottom: 1px solid #ddd; /* borde inferior */
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+
+/* otros estilos de tabla: STRIPED*/
+table, th, td {
+   border: 0px;    /* borde */
+   border-radius: 4px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;} /* par */
+tr:nth-child(odd) {background-color: #dddddd;} /* impar */
+
+/* dandole color al table header */
+th {
+    background-color: #b70000;
+    color: white;
+}
+
+/* formulario */
+
+input, select{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+input[type=text], input[type=date], select {
+    width: 100%; /* ancho disponible */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    /*divide el despliegue de 2 elementos (none los oculta) */
+    border: 1px solid #ccc; /* borde del input */
+    border-radius: 4px;
+    box-sizing: border-box; /* hasta el borde del contenedor */
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #b70000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #b70000;
+}
+
+article {
+    /*
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+    */
+}
+
+@media(min-width: 600px) /* consulta css */
+{ /* para pantallas mayores a 600px */
+	.contenido{
+	display: flex; /* primer flex */
+	}
+
+	aside{
+		display: flex;
+	}
+
+	.contenidopie{
+		display: flex;
+	}
+}

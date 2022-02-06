@@ -1,0 +1,28 @@
+.contenedor{
+	background-color: #fff;
+	padding: 0px;
+	display: flex;
+	align-items: stretch;
+}
+
+.colcontenedor{
+	flex: 1;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+.colcontenedor:last-child{
+	margin-right: 0px;
+}
+
+.colcontenedor:nth-child(1){
+	background-color: green;
+}
+
+.colcontenedor:nth-child(2){
+	background-color: yellow;
+}
+
+.colcontenedor:nth-child(3){
+	background-color: red;
+}

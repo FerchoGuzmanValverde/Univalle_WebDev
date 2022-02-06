@@ -1,0 +1,6 @@
+c:\users\usuario\documents\visual studio 2013\Projects\EjerciciosCookies\EjerciciosCookies\bin\EjerciciosCookies.dll.config
+c:\users\usuario\documents\visual studio 2013\Projects\EjerciciosCookies\EjerciciosCookies\bin\EjerciciosCookies.dll
+c:\users\usuario\documents\visual studio 2013\Projects\EjerciciosCookies\EjerciciosCookies\bin\EjerciciosCookies.pdb
+c:\users\usuario\documents\visual studio 2013\Projects\EjerciciosCookies\EjerciciosCookies\obj\Debug\EjerciciosCookies.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2013\Projects\EjerciciosCookies\EjerciciosCookies\obj\Debug\EjerciciosCookies.dll
+c:\users\usuario\documents\visual studio 2013\Projects\EjerciciosCookies\EjerciciosCookies\obj\Debug\EjerciciosCookies.pdb

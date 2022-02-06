@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PruebasDBModelStoreContainer" CdmEntityContainer="PruebasDBEntities">
+    <EntitySetMapping Name="Formato">
+      <EntityTypeMapping TypeName="PruebasDBModel.Formato">
+        <MappingFragment StoreEntitySet="Formato">
+          <ScalarProperty Name="idFormato" ColumnName="idFormato" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Video">
+      <EntityTypeMapping TypeName="PruebasDBModel.Video">
+        <MappingFragment StoreEntitySet="Video">
+          <ScalarProperty Name="idVideo" ColumnName="idVideo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="idFormato" ColumnName="idFormato" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

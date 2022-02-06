@@ -1,0 +1,45 @@
+header{
+    background-color: blue;
+    flex: 1;
+    width: 100%;
+    margin: 0%;
+}
+
+div{
+    display: flex;
+    margin: 0%;
+}
+
+nav{
+    background-color: aqua;
+    flex: 2;
+    flex-direction: column;
+}
+
+main{
+    background-color: blueviolet;
+    flex: 3;
+}
+
+aside{
+    background-color: gray;
+    flex: 2;
+}
+
+footer{
+    background-color: chocolate;
+    width: 100%;
+    margin: 0%;
+}
+
+article{
+    background-color: goldenrod;
+}
+
+article:first-child{
+    background-color: green;
+}
+
+article:last-child{
+    background-color: red;
+}

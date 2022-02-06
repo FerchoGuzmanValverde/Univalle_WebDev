@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="People registration form">
+  <meta name="keywords" content="Register, Information, People">
+  <meta name="author" content="Fernando Guzman">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/formStyles.css">
+  <title>Registration of people</title>
+</head>
+
+<body>
+  
+  <header>
+    <img src="images/logo.jpg" width="300">
+    <div class="searcher"></div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html" class="activelink">Home</a></li>
+      <li><a href="enterprises.html">Enterprises Registration</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <article>
+        <h1>Registration of people</h1>
+
+        <form action="registration.php" method="post">
+          
+          <label>User (mandatory):</label>
+          <input type="text" name="username" placeholder="User" required>
+          <br>
+          
+          <label>Password (mandatory):</label>
+          <input type="text" name="password" placeholder="Password" required>
+          <br>
+          
+          <label>City of birth</label>
+          <select name="city">
+            <option value="CBBA">Cochabamba</option>
+            <option value="LPZ">La Paz</option>
+            <option value="SCZ">Santa Cruz</option>
+          </select>
+          <br>
+          
+          <input type="submit" name="send" value="Register User">
+        </form>
+      </article>
+    </section>
+
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Fees</th>
+          </tr>
+        </thead>
+        <tbody>
+          <td>HTML5</td>
+          <td>65 $us</td>
+        </tbody>
+        <tbody>
+          <td>CSS</td>
+          <td>96 $us</td>
+        </tbody>
+        <tbody>
+          <td>JS</td>
+          <td>120 $us</td>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feicobol &copy; 2018</p>
+  </footer>
+
+</body>
+</html>

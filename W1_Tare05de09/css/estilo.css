@@ -1,0 +1,33 @@
+header{
+	background-color: red;
+}
+
+.container{
+	display: flex;
+}
+
+nav{
+	background-color: yellow;
+	flex: 1;
+}
+main{
+	background-color: green;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+article{
+	background-color: lime;
+	flex: 1;
+	margin: 10px;
+}
+
+aside{
+	background-color: aqua;
+	flex: 1;
+}
+
+footer{
+	background-color: blue;
+}

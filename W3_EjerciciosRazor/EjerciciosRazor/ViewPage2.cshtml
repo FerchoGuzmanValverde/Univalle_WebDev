@@ -1,0 +1,54 @@
+﻿@{
+    Random codigo = new Random();
+    Random tiempo = new Random();
+
+    var actual = codigo.Next(12, 29);
+    var actualt= tiempo.Next(1,10);
+    var precio = 0.0;
+
+    if (actual == 12)
+    {
+        precio = actualt * 2;
+    }
+    else if (actual == 15)
+    {
+        precio = actualt * 2.2;
+    }
+    else if (actual == 18)
+    {
+        precio = actualt * 4.5;
+    }
+    else if (actual == 19)
+    {
+        precio = actualt * 3.5;
+    }
+    else if (actual == 23)
+    {
+        precio = actualt * 6;
+    }
+    else if (actual == 25)
+    {
+        precio = actualt * 6;
+    }
+    else if (actual == 29)
+    {
+        precio = actualt * 5;
+    }
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+    Tiempo llamada: @actualt
+    Codigo pais: @actual
+    Costo: @precio
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>jQuery</title>
+    <meta charset="utf-8">
+    <meta name="description" content="jQuery">
+    <meta name="keywords" content="jQuery, HTML5, Javascript">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>jQuery</h1>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Selectores</h4>
+
+            <button id="botonslidedown" class="btn btn-primary">SlideDown</button>
+            <button id="botonslideup" class="btn btn-success">SlideUp</button>
+
+            <div id="imagenes" style="display: none;"> 
+              <img src="01rrss.png" id="1">
+              <img src="02rrss.png" id="2">
+              <img src="03rrss.png" id="3">
+            </div>
+
+            <br>
+            <button id="botonslidetoggle" class="btn btn-dark">SlideToggle</button>
+            <div id="imagenes2" style="display: none;">
+              <img src="04rrss.png">
+            <img src="05rrss.png">
+            <img src="06rrss.png">
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    //jQuery
+    
+    $('#botonslidedown').click(function(){
+      $("#imagenes").slideDown(1000); 
+    });
+
+    $('#botonslideup').click(function(){
+      $("#imagenes").slideUp(1000); 
+    });
+
+    $('#botonslidetoggle').click(function(){
+      $("#imagenes2").slideToggle(); 
+    });
+  });
+</script>
+  </body>
+</html>

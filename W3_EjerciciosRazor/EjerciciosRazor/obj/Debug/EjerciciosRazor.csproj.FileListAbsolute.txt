@@ -1,0 +1,12 @@
+C:\Users\usuario\Desktop\EjerciciosRazor\EjerciciosRazor\bin\EjerciciosRazor.dll.config
+C:\Users\usuario\Desktop\EjerciciosRazor\EjerciciosRazor\bin\EjerciciosRazor.dll
+C:\Users\usuario\Desktop\EjerciciosRazor\EjerciciosRazor\bin\EjerciciosRazor.pdb
+C:\Users\usuario\Desktop\EjerciciosRazor\EjerciciosRazor\obj\Debug\EjerciciosRazor.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\EjerciciosRazor\EjerciciosRazor\obj\Debug\EjerciciosRazor.dll
+C:\Users\usuario\Desktop\EjerciciosRazor\EjerciciosRazor\obj\Debug\EjerciciosRazor.pdb
+E:\Univalle\4to Semestre CS\Programacion Web 3\EjerciciosRazor\EjerciciosRazor\bin\EjerciciosRazor.dll.config
+E:\Univalle\4to Semestre CS\Programacion Web 3\EjerciciosRazor\EjerciciosRazor\bin\EjerciciosRazor.dll
+E:\Univalle\4to Semestre CS\Programacion Web 3\EjerciciosRazor\EjerciciosRazor\bin\EjerciciosRazor.pdb
+E:\Univalle\4to Semestre CS\Programacion Web 3\EjerciciosRazor\EjerciciosRazor\obj\Debug\EjerciciosRazor.csprojResolveAssemblyReference.cache
+E:\Univalle\4to Semestre CS\Programacion Web 3\EjerciciosRazor\EjerciciosRazor\obj\Debug\EjerciciosRazor.dll
+E:\Univalle\4to Semestre CS\Programacion Web 3\EjerciciosRazor\EjerciciosRazor\obj\Debug\EjerciciosRazor.pdb

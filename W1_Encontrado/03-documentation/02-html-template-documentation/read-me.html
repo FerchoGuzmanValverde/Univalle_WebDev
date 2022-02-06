@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+
+		<!-- Meta -->
+		<meta charset="UTF-8">
+		<title>SmartPack | Documentation</title>
+		<meta name="keywords" content="Startapp, Documentation">
+		<meta name="description" content="Startapp - Documentation">
+		<meta name="author" content="demo">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicons -->
+		<link rel="shortcut icon" href="assets/favicon.png">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="assets/reset.css">
+		<link rel="stylesheet" href="assets/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/shCore.css">
+		<link rel="stylesheet" href="assets/shThemeDefault.css">
+		<link rel="stylesheet" href="assets/style.css">
+
+	</head>
+
+	<body>
+
+		<!-- Header -->
+		<div id="header">
+			<h1>SmartPack - Documentation - by Bogdan</h1>
+		</div>
+
+		<!-- Menu -->
+		<div id="doc-menu">
+			<ul class="nav">
+				<li class="section active"><span>1</span><a href="#s1">Introduction</a></li>
+				<li class="section"><span>2</span><a href="#s2">HTML Structure</a></li>
+				<li class="section"><span>3</span><a href="#s3">CSS Structure</a></li>
+				<li class="section"><span>4</span><a href="#s4">JavaScripts</a></li>
+				<li class="section"><span>5</span><a href="#s5">Additional Info</a></li>
+				<li class="section"><span>6</span><a href="#s6">Changelog</a></li>
+                <li class="section"><span>7</span><a href="#s7">Credits</a></li>
+			</ul>
+		</div>
+
+		<!-- Content -->
+		<div id="doc-content" data-spy="scroll" data-target="#menu">
+
+			<div id="intro">
+				<div class="vertical">
+					<h1>SmartPack - Documentation <span>v1.1</span></h1>
+					<h2>Thank you for purchasing my template.</h2>
+				</div>
+			</div>
+
+<!-- ===================================================================================-->
+<!-- 1 Introduction
+ -->
+<!-- ===================================================================================-->
+
+			<h1 id="s1"><span>1</span>Introduction</h1>
+            
+			<p>Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/bogdan_09">here</a>. Thanks so much!</p>
+ 
+<!-- ===================================================================================-->           
+<!-- 2 HTML Structure
+ -->
+<!-- ===================================================================================-->
+
+			<h1 id="s2"><span>2</span>HTML Structure</h1>
+            
+			<p><b>Header Section</b><br>Logo and navigation are located in the upper zone, within the header section.</p>
+            
+            <!-- Code ==============================================================================-->
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+
+<header class="item header margin-top-0 padding-bottom-70" id="header1">
+
+        <div class="wrapper">
+    
+            <div class="container">
+        
+                <nav role="navigation" class="navbar navbar-default navbar-lg navbar-fixed-top">
+                    
+                    <div class="container">
+                
+                        <div class="navbar-header">
+                            <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                                                            
+                            <a href="#" class="navbar-brand brand"> Smart<span class="blue">Pack</span></a>
+                        </div>
+                                
+                        <div id="navbar-collapse-02" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">			      
+                                <li><a href="#slider-wrapper">Home</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#portfolio">Showcase</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+            
+                    </div>
+                    
+                </nav>
+            
+            </div>
+    
+        </div>
+    
+    </header>
+
+]]></script>
+<!--====================================================================================-->
+
+			<p><b>Newsletter &amp; Contact Form Sections</b><br>Bellow you can see how the code for the newsletter and contact form sections looks inside the <i>index.html</i> file:</p>
+            
+            <!-- Code ==============================================================================-->
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+
+<!--begin newsletter-form -->
+<form id="newsletter-form" class="newsletter_form" action="php/newsletter.php" method="post">
+	<input id="email_newsletter" name="nf_email" placeholder="Enter Your Email Address" type="email">  
+	<input value="GET STARTED!" id="submit-button-newsletter" type="submit">
+</form>
+<!--end newsletter-form -->
+						
+]]></script>
+<!--====================================================================================-->
+
+            <!-- Code ==============================================================================-->
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+
+<!--begin contact form -->
+<form id="contact-form" class="contact" action="php/contact.php" method="post">
+	<input class="contact-input white-input" required="" name="contact_names" placeholder="Full Name*" type="text">
+	<input class="contact-input white-input" required="" name="contact_email" placeholder="Email Adress*" type="email">
+	<textarea class="contact-commnent white-input" rows="2" cols="20" name="contact_message" placeholder="Your Message..."></textarea>
+	<input value="Send Message" id="submit-button" class="contact-submit" type="submit">
+</form>
+<!--end contact form -->
+						
+]]></script>
+<!--====================================================================================-->
+
+
+			<p>This template includes as well 2 PHP files, called <b>newsletter.php</b> and <b>contact.php</b>. For your newsletter, register and contact forms to function correctly youʼll have to open the newsletter.php and contact.php files and enter in your email address in the following location:</p>
+            
+<!-- Code ==============================================================================-->
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+$to ='to@email.com';
+]]></script>
+<!--====================================================================================-->
+
+			<p><b>Footer Section</b></p>
+            
+            <!-- Code ==============================================================================-->
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+
+<<div class="footerWrapper" id="footer1">
+    
+        <div class="footer dark">
+                
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center social">
+                        
+                        <p><span class="editContent">Copyright © 2015 SmartPack. Designed and Developed by</span> <a href="#" class="author">Bogdan</a>.</p>
+                        
+                    </div>
+                </div>
+            </div>
+                    
+        </div>
+        
+    </div>
+
+
+]]></script>
+<!--====================================================================================-->
+
+
+<!-- ===================================================================================-->
+<!-- 3 CSS Structure
+ -->
+<!-- ===================================================================================-->
+
+			<h1 id="s3"><span>3</span>CSS Structure</h1>
+			<p>This template includes 7 css files. Let's take a look closely at our stylesheet files:</p>
+            
+            <ul>
+				<li><b>style.css</b>  - common css styles for this template.</li>
+                <li><b>bootstrap.css</b>  - standard bootstrap css styles.</li>
+                <li><b>font-awesome.css</b> - base styles for the font-awesome icons font.</li>
+				<li><b>layerslider.css</b>- common css styles for LayerSlider</li>
+                <li><b>style-magnific-popup.css</b> - contain css styles for the lightbox gallery</li>
+			</ul>
+            
+<!-- Code ==============================================================================-->
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+<!-- Loading Bootstrap -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+<link href="css/style.css" rel="stylesheet">
+<link href="css/style-magnific-popup.css" rel="stylesheet">
+
+<!-- Loading Layer Slider -->
+<link href="css/layerslider.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="css/font-awesome.css" rel="stylesheet">
+]]></script>
+<!--====================================================================================-->
+
+<!-- ===================================================================================-->
+<!-- 4 JavaScripts
+ -->
+<!-- ===================================================================================-->
+
+			<h1 id="s4"><span>4</span>JavaScripts</h1>
+			<p>This template imports Javascript files. jQuery is a Javascript library that greatly reduces the amount of code that you must write.</p>
+            
+<!-- ===================================================================================-->
+<!-- 5 Customization
+ -->
+<!-- ===================================================================================-->
+
+			<h1 id="s5"><span>5</span>Additional Info</h1>
+            
+			<p><b>Social Icons</b> - please visit <b><a href="http://fortawesome.github.io/Font-Awesome/3.2.1/icons/" target="_blank">Font-Awesome</a></b> for the complete list of social icons.</p>
+            
+            <p><b>Fonts Used</b> - I have used 1 type of Google Font in this template: <a href="http://www.google.com/fonts/specimen/Lato" target="_blank">Lato</a>. If you would like to use different Google Fonts, you have to copy the font link in Google Fonts page and paste it in your <i>index.html</i> file.</p>
+            
+                        
+<!-- Code ==============================================================================-->
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+]]></script>
+<!--====================================================================================-->
+
+			<p>Then you will need to add the new font name to your <i>style.css</i> file.</p>
+            
+            <!-- Code ==============================================================================-->
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+html {
+	font-family: 'Lato', sans-serif;
+}
+]]></script>
+<!--====================================================================================-->
+
+
+
+<!-- ===================================================================================-->
+<!-- 6 Changelog -->
+<!-- ===================================================================================-->
+
+			<h1 id="s6"><span>6</span>Changelog</h1>
+
+			<p>Changelog of the template is available on <a href="http://themeforest.net/item/smartpack-html-template-with-page-builder/11930096">ThemeForest</a> at the end of the item page.</p>
+        
+        
+<!-- ===================================================================================-->
+<!-- 7 Credits -->
+<!-- ===================================================================================-->
+
+			<h1 id="s7"><span>7</span>Sources and Credits</h1>
+
+			<p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this template. No guarantees, but I'll do my best to assist.</p>
+            <p style="margin:20px 0 0 0;">Best Regards,</p>
+            <p style="margin:20px 0 50px 0;"><b>Bogdan</b></p>
+
+		</div>
+
+		<!-- JavaScripts -->
+		<script type='text/javascript' src='assets/jquery.min.js'></script>
+		<script type='text/javascript' src='assets/bootstrap.min.js'></script>
+		<script type='text/javascript' src='assets/jquery.scrollTo.min.js'></script>
+		<script type='text/javascript' src='assets/jquery.localscroll-1.2.7-min.js'></script>
+		<script type='text/javascript' src='assets/shCore.js'></script>
+		<script type='text/javascript' src='assets/shBrushPhp.js'></script>
+		<script type='text/javascript' src='assets/shBrushXML.js'></script>
+		<script type='text/javascript' src='assets/shBrushJScript.js'></script>
+		<script type='text/javascript' src='assets/shBrushCss.js'></script>
+		<script type='text/javascript' src='assets/custom.js'></script>
+
+	</body>
+</html>

@@ -1,0 +1,19 @@
+F:\Agenda\Agenda\bin\Agenda.dll.config
+F:\Agenda\Agenda\bin\Agenda.dll
+F:\Agenda\Agenda\bin\Agenda.pdb
+F:\Agenda\Agenda\obj\Debug\Agenda.csprojResolveAssemblyReference.cache
+F:\Agenda\Agenda\obj\Debug\Agenda.dll
+F:\Agenda\Agenda\obj\Debug\Agenda.pdb
+F:\4toSemester\Programacion Web III\Agenda\Agenda\bin\Agenda.dll.config
+F:\4toSemester\Programacion Web III\Agenda\Agenda\bin\Agenda.dll
+F:\4toSemester\Programacion Web III\Agenda\Agenda\bin\Agenda.pdb
+F:\4toSemester\Programacion Web III\Agenda\Agenda\obj\Debug\Agenda.csprojResolveAssemblyReference.cache
+F:\4toSemester\Programacion Web III\Agenda\Agenda\obj\Debug\Agenda.dll
+F:\4toSemester\Programacion Web III\Agenda\Agenda\obj\Debug\Agenda.pdb
+H:\4toSemester\Programacion Web III\Agenda\Agenda\obj\Debug\Agenda.csprojAssemblyReference.cache
+H:\4toSemester\Programacion Web III\Agenda\Agenda\obj\Debug\Agenda.csproj.CoreCompileInputs.cache
+H:\4toSemester\Programacion Web III\Agenda\Agenda\obj\Debug\Agenda.dll
+H:\4toSemester\Programacion Web III\Agenda\Agenda\obj\Debug\Agenda.pdb
+H:\4toSemester\Programacion Web III\Agenda\Agenda\bin\Agenda.dll.config
+H:\4toSemester\Programacion Web III\Agenda\Agenda\bin\Agenda.dll
+H:\4toSemester\Programacion Web III\Agenda\Agenda\bin\Agenda.pdb

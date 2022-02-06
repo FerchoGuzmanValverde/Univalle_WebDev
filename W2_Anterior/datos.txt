@@ -1,0 +1,4 @@
+LOG DEL SERVIDOR
+LOGIN | Acceso de usuario
+UPDATE | Modificacion de datos
+LOGOUT | Salida de usuario

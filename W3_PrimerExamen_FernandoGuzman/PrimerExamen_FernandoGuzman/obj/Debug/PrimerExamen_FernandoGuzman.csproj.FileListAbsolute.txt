@@ -1,0 +1,6 @@
+F:\Univalle\4to Semestre CS\Programacion Web 3\PrimerExamen_FernandoGuzman\PrimerExamen_FernandoGuzman\bin\PrimerExamen_FernandoGuzman.dll.config
+F:\Univalle\4to Semestre CS\Programacion Web 3\PrimerExamen_FernandoGuzman\PrimerExamen_FernandoGuzman\bin\PrimerExamen_FernandoGuzman.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\PrimerExamen_FernandoGuzman\PrimerExamen_FernandoGuzman\bin\PrimerExamen_FernandoGuzman.pdb
+F:\Univalle\4to Semestre CS\Programacion Web 3\PrimerExamen_FernandoGuzman\PrimerExamen_FernandoGuzman\obj\Debug\PrimerExamen_FernandoGuzman.csprojResolveAssemblyReference.cache
+F:\Univalle\4to Semestre CS\Programacion Web 3\PrimerExamen_FernandoGuzman\PrimerExamen_FernandoGuzman\obj\Debug\PrimerExamen_FernandoGuzman.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\PrimerExamen_FernandoGuzman\PrimerExamen_FernandoGuzman\obj\Debug\PrimerExamen_FernandoGuzman.pdb

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>jQuery</title>
+    <meta charset="utf-8">
+    <meta name="description" content="jQuery">
+    <meta name="keywords" content="jQuery, HTML5, Javascript">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>jQuery</h1>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Selectores</h4>
+            <button id="botonfadein" class="btn btn-primary">FadeIn</button>
+            <button id="botonfadeout" class="btn btn-success">FadeOut</button>
+            <br>
+            <img src="01rrss.png" id="1" style="display: none;">
+            <img src="02rrss.png" id="2" style="display: none;">
+            <img src="03rrss.png" id="3" style="display: none;">
+            <br>
+            <button id="botonfadetoggle" class="btn btn-dark">FadeToggle</button>
+            <br>
+            <img src="04rrss.png" id="4">
+            <img src="05rrss.png" id="5">
+            <img src="06rrss.png" id="6">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    //jQuery
+    
+    $('#botonfadein').click(function(){
+      $("#1").fadeIn(100); 
+      $("#2").fadeIn(500); 
+      $("#3").fadeIn(1000); 
+    });
+
+    $('#botonfadeout').click(function(){
+      $("#1").fadeOut(1000); 
+      $("#2").fadeOut(500); 
+      $("#3").fadeOut(100); 
+    });
+
+    $('#botonfadetoggle').click(function(){
+      $("#4").fadeToggle(); 
+      $("#5").fadeToggle(); 
+      $("#6").fadeToggle(); 
+    });
+  });
+
+
+  /*$(function(){
+    //jQuery
+
+
+  });*/
+</script>
+  </body>
+</html>

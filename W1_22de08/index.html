@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Pagina de Practicas">
+	<meta name="keywords" content="">
+	<meta name="author" content="Fernando Guzman Valverde">
+</head>
+<body>
+	<form action="destino.php" method="POST">
+		<label>Nombre:
+			<input type="text" name="nombre" placeholder="Ingrese su nombre" autocomplete="off">
+		</label>
+		<input type="submit" name="Enviar">
+	</form><br><br>
+
+	<form action="destino.php" method="GET">
+		<fieldset>
+			<legend>Nombre Completo</legend>
+			<label>Nombre:
+				<input type="text" name="nombres" placeholder="Escriba sus nombres" autocomplete="off">
+			</label>
+			<label>Apellidos:
+				<input type="text" name="apellidos" placeholder="Escriba sus apellidos" autocomplete="off">
+			</label><br>
+		</fieldset>
+		<fieldset>	
+			<legend>Genero</legend>
+			<label>Sexo:</label><br>
+			<input type="radio" name="genero" value="Hombre" checked>Masculino
+			<input type="radio" name="genero" value="Mujer">Femenino
+			<input type="radio" name="genero" value="Otro">Otro
+		</fieldset><br>
+		<fieldset>
+			<legend>Ciudad de Nacimiento</legend>
+			<select name="ciudad">
+				<option value="CBBA" selected>Cochabamba</option>
+				<option value="SC">Santa Cruz</option>
+				<option value="LPZ">La Paz</option>
+				<option value="OR">Oruro</option>
+				<option value="BE">Beni</option>
+				<option value="CH">Chiquisaca</option>
+				<option value="PA">Pando</option>
+				<option value="PO">Potosi</option>
+				<option value="TA">Tarija</option>
+			</select>
+		</fieldset><br>
+		<input type="submit" name="submit" value="Guardar">
+	</form><br><br><br>
+	<form>
+		<fieldset>
+			<legend>A:</legend>
+			<label>Nombres:
+				<input type="text" name="nombre" placeholder="Ingrese su nombre">
+			</label>
+			<label>Apellidos:
+				<input type="text" name="apellidos" placeholder="Ingrese sus apellidos">
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>Nacido el:</legend>
+			<select name="dia">
+				<!--Dos digitos para dias y meses en values-->
+				<option value="0">DIA</option>
+				<option value="1d">1</option>
+				<option value="2d">2</option>
+				<option value="3d">3</option>
+				<option value="4d">4</option>
+				<option value="5d">5</option>
+				<option value="6d">6</option>
+			</select>
+			<select name="mes">
+				<option value="0">MES</option>
+				<option value="Enero">Enero</option>
+				<option value="Febrero">Febrero</option>
+				<option value="Marzo">Marzo</option>
+				<option value="Abril">Abril</option>
+				<option value="Mayo">Mayo</option>
+			</select>
+			<select name="año">
+				<!--Cuatro digitos para años en values-->
+				<option value="0">AÑO</option>
+				<option value="1a">1</option>
+				<option value="2a">2</option>
+				<option value="3a">3</option>
+				<option value="4a">4</option>
+				<option value="5a">5</option>
+				<option value="6a">6</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>En:</legend>
+			<select name="lugar">
+				<option value="CBBA" selected>Cochabamba</option>
+				<option value="SC">Santa Cruz</option>
+				<option value="LPZ">La Paz</option>
+				<option value="OR">Oruro</option>
+				<option value="BE">Beni</option>
+				<option value="CH">Chiquisaca</option>
+				<option value="PA">Pando</option>
+				<option value="PO">Potosi</option>
+				<option value="TA">Tarija</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Estado Civil:</legend>
+			<select name="estadocivil">
+				<option value="sol">Soltero</option>
+				<option value="cas">Casado</option>
+				<option value="viu">Viudo</option>
+				<option value="lol">Jugando lol</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Profesion:</legend>
+			<input type="text" name="profesion">
+		</fieldset>
+		<fieldset>
+			<legend>Domicilio:</legend>
+			<input type="text" name="domicilio">
+		</fieldset>
+		<br>
+		<input type="submit" name="submit" value="Guardar">
+	</form>
+</body>
+</html>

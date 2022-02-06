@@ -1,0 +1,6 @@
+C:\Users\usuario\Desktop\Trabajo_FernandoGuzman\Trabajo_FernandoGuzman\bin\Trabajo_FernandoGuzman.dll.config
+C:\Users\usuario\Desktop\Trabajo_FernandoGuzman\Trabajo_FernandoGuzman\bin\Trabajo_FernandoGuzman.dll
+C:\Users\usuario\Desktop\Trabajo_FernandoGuzman\Trabajo_FernandoGuzman\bin\Trabajo_FernandoGuzman.pdb
+C:\Users\usuario\Desktop\Trabajo_FernandoGuzman\Trabajo_FernandoGuzman\obj\Debug\Trabajo_FernandoGuzman.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Trabajo_FernandoGuzman\Trabajo_FernandoGuzman\obj\Debug\Trabajo_FernandoGuzman.dll
+C:\Users\usuario\Desktop\Trabajo_FernandoGuzman\Trabajo_FernandoGuzman\obj\Debug\Trabajo_FernandoGuzman.pdb

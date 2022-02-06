@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aprendiendo Bootstrap">
+    <meta name="keywords" content="Bootstrap, Twitter, Responsivo">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body onload="generar()">
+
+<div class="container">
+
+  <h2>Prueba matemática</h2>
+    <div class="card">
+      <div class="card-body text-center">
+        <h3 class="text-center" id="respondiendo">...</h3><br>
+        <form action="fin.html" method="post" name="forma">
+          <table style="margin-left: 120px">
+            <tr>
+              <td>
+                <img src="" id="imagen1">
+             </td>
+              <td>
+                <img src="images/mas.png">
+              </td>
+              <td>
+                <img src="" id="imagen2">
+              </td>
+              <td>
+                <img src="images/igual.png"></td>
+              <td>
+                <img src="images/start.png" id="respuesta"><br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" name="numero1" id="num1">
+            </td>
+      <td></td>
+      <td>
+        <input type="text" name="numero2" id="num2">
+      </td>
+      <td></td>
+      <td>
+        <select id="seleccion" onclick="cambiar()">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </td>
+      </tr>
+      </table>
+        </form>
+      </div> 
+      <div class="card-footer text-center">
+        <button onclick="sumar()" name="sumar" class="btn btn-success">Sumar</button>
+      </div>
+    </div>
+  </div>
+
+<script src="prueba.js"></script>  	  
+    
+  </body>
+</html>

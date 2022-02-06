@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Canvas</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Canvas en HTML5">
+    <meta name="keywords" content="Canvas, HTML5, Internet">
+    <meta name="author" content="Fernando Guzman Valverde">
+  </head>
+  <body>
+
+  	<canvas id="micanvas" width="300" height="250">
+  		Por favor actualiza tu navegador.
+  	</canvas>
+
+  	<script type="text/javascript">
+  		var  elemento = document.getElementById("micanvas");
+  		var  contexto = elemento.getContext('2d');
+
+
+  		function aleatorio(inferior, superior)
+  		{
+  			var rango = superior - inferior;
+  			var nrandom = parseInt(Math.random()*rango+1);
+  			return parseInt(inferior) + nrandom;
+  		}
+
+
+  		function colorAleatorio()
+  		{
+  			//rgb(120,90,18)
+  			return "rgb(" + aleatorio(0,255) + "," + aleatorio(0,255) + "," + aleatorio(0,255) + ")";
+  		}
+
+
+  		for (var i = 0; i < 300; i=i+15) 
+  		{
+  			for (var j = 0; j < 250; j=j+15)
+  			{
+  				contexto.strokeStyle = colorAleatorio();
+  				contexto.strokeRect(i, j, 10, 10)
+  			}  
+  		}
+
+  	</script>
+
+  </body>
+</html>

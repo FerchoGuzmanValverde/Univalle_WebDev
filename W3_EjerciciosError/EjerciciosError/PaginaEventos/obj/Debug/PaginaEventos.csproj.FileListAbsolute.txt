@@ -1,0 +1,5 @@
+C:\PROJECTS\Ejercicios\PaginaEventos\bin\PaginaEventos.dll
+C:\PROJECTS\Ejercicios\PaginaEventos\bin\PaginaEventos.pdb
+C:\PROJECTS\Ejercicios\PaginaEventos\obj\Debug\PaginaEventos.dll
+C:\PROJECTS\Ejercicios\PaginaEventos\obj\Debug\PaginaEventos.pdb
+C:\PROJECTS\Ejercicios\PaginaEventos\obj\Debug\PaginaEventos.csprojResolveAssemblyReference.cache

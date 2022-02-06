@@ -1,0 +1,43 @@
+header{
+	background-color: red;
+}
+
+.contenido{
+	display: flex; /* primer flex */
+}
+
+nav{
+	background-color: yellow;
+	flex: 2;
+}
+
+main{
+	background-color: green;
+	flex: 1;
+	display: flex; /* segundo flexbox */
+	flex-direction: column; /* horizontal */
+}
+
+article{
+	background-color: lime;
+}
+
+aside{
+	background-color: aqua;
+	flex: 1;
+}
+
+.contenidopie{
+	display: flex; /* primer flex */
+}
+
+.copy{
+	flex: 2;
+	background-color: green;
+}
+.rrss{
+	flex: 1;
+	background-color: orange;
+}
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Canvas</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Canvas en HTML5">
+    <meta name="keywords" content="Canvas, HTML5, Internet">
+    <meta name="author" content="Fernando Guzman Valverde">
+  </head>
+  <body>
+
+  	<canvas id="micanvas" width="450" height="225">
+  		Por favor actualiza tu navegador.
+  	</canvas>
+
+  	<script type="text/javascript">
+  		var  elemento = document.getElementById("micanvas");
+  		var  contexto = elemento.getContext('2d');
+
+  		//imagenes
+  		var img = new Image();
+  		img.src = 'escenario.jpg';
+  		var car = new Image();
+  		car.src = 'car.png';
+
+  		img.onload = function(){
+  			contexto.drawImage(img, 0, 0);
+  		}
+
+  		car.onload = function(){
+  			contexto.drawImage(car, 0, 140);
+  		}
+
+  		var posx = 0;
+
+  		function mover()
+  		{
+        var img = new Image();
+        img.src = 'escenario.jpg';
+        var car = new Image();
+        car.src = 'car.png';
+  			img.onload = function(){
+        contexto.drawImage(img, 0, 0);
+        }
+
+        car.onload = function(){
+        contexto.drawImage(car, posx, 140);
+        }
+        posx+=10;
+  		}
+
+  	</script>
+
+  	<button onclick="mover()">Mover Auto</button>
+
+  </body>
+</html>

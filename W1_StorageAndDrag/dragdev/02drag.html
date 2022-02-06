@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Drag and Drop</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Drag and Drop en HTML5">
+    <meta name="keywords" content="Drag and Drop, HTML5, Internet">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="01drag.css">
+
+<script type="text/javascript">
+ function dejarArrastrar(ev) {
+    ev.preventDefault();
+}
+
+function arrastrar(ev) {
+  origen=document.getElementById("origen");
+  destino=document.getElementById("destino");
+  if(destino.innerHTML=="")
+  {
+    var codigoimagen=document.getElementById("origen").innerHTML;
+    ev.dataTransfer.setData("text", codigoimagen);
+  }
+  else
+  {
+    var codigoimagen=document.getElementById("destino").innerHTML;
+    ev.dataTransfer.setData("text", codigoimagen);
+  }
+}
+
+function soltar(ev) {
+    //ev.preventDefault();
+    origen=document.getElementById("origen");
+    destino=document.getElementById("destino");
+    if(destino.innerHTML=="")
+    {
+      origen.innerHTML="";
+      destino.innerHTML=ev.dataTransfer.getData("text");
+    }
+    else
+    {
+      destino.innerHTML="";
+      origen.innerHTML=ev.dataTransfer.getData("text");
+    }
+}
+</script>
+</head>
+<body>
+<div class="container">
+  <h1>Drag and Drop - 2 sentidos</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Origen</h4>
+          <div id="origen" ondrop="soltar(event)" ondragover="dejarArrastrar(event)">
+            <img src="jake.png" draggable="true" ondragstart="arrastrar(event)" id="imagen" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Destino</h4>
+          <div id="destino" ondrop="soltar(event)" ondragover="dejarArrastrar(event)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>

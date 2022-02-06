@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> <!---->
+	<MENU>
+		<FOOD>
+			<ITEM>1</ITEM>
+			<CITY>COHABAMBA</CITY>
+			<NAME>PIQUE MACHO</NAME>
+			<COUNTRY>BOLIVIA</COUNTRY>
+			<INGREDIENTS>Chorizo,carne,huevo</INGREDIENTS>
+			<PRICE>50 Bs.</PRICE>
+		</FOOD>
+		<FOOD>
+			<ITEM>2</ITEM>
+			<CITY>LA PAZ</CITY>
+			<NAME>Fricasé</NAME>
+			<COUNTRY>BOLIVIA</COUNTRY>
+			<INGREDIENTS>Carne,papa,chuño y más.</INGREDIENTS>
+			<PRICE>40 Bs.</PRICE>
+		</FOOD>
+		<FOOD>
+			<ITEM>3</ITEM>
+			<CITY>SANTA CRUZ</CITY>
+			<NAME>Majao</NAME>
+			<COUNTRY>BOLIVIA</COUNTRY>
+			<INGREDIENTS>Charque,arroz,plátano y más.</INGREDIENTS>
+			<PRICE>30 Bs.</PRICE>
+		</FOOD>
+		<FOOD>
+			<ITEM>4</ITEM>
+			<CITY>LIMA</CITY>
+			<NAME>Cebiche</NAME>
+			<COUNTRY>PERU</COUNTRY>
+			<INGREDIENTS>Pescado,limón,cebolla y más.</INGREDIENTS>
+			<PRICE>40 Bs.</PRICE>
+		</FOOD>
+		<FOOD>
+			<ITEM>5</ITEM>
+			<CITY>BUENOS AIRES</CITY>
+			<NAME>Asado argentino</NAME>
+			<COUNTRY>ARGENTINA</COUNTRY>
+			<INGREDIENTS>Carne,papa,arroz y más.</INGREDIENTS>
+			<PRICE>50 Bs.</PRICE>
+		</FOOD>
+	</MENU>

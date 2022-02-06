@@ -1,0 +1,6 @@
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Trace(23.08)\trace\bin\trace.dll.config
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Trace(23.08)\trace\bin\trace.dll
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Trace(23.08)\trace\bin\trace.pdb
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Trace(23.08)\trace\obj\Debug\trace.csprojResolveAssemblyReference.cache
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Trace(23.08)\trace\obj\Debug\trace.dll
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\Trace(23.08)\trace\obj\Debug\trace.pdb

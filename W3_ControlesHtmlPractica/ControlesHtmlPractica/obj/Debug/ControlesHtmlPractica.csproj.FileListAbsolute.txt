@@ -1,0 +1,13 @@
+C:\Users\usuario\Desktop\ControlesHtmlPractica\ControlesHtmlPractica\bin\ControlesHtmlPractica.dll.config
+C:\Users\usuario\Desktop\ControlesHtmlPractica\ControlesHtmlPractica\bin\ControlesHtmlPractica.dll
+C:\Users\usuario\Desktop\ControlesHtmlPractica\ControlesHtmlPractica\bin\ControlesHtmlPractica.pdb
+C:\Users\usuario\Desktop\ControlesHtmlPractica\ControlesHtmlPractica\obj\Debug\ControlesHtmlPractica.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\ControlesHtmlPractica\ControlesHtmlPractica\obj\Debug\ControlesHtmlPractica.dll
+C:\Users\usuario\Desktop\ControlesHtmlPractica\ControlesHtmlPractica\obj\Debug\ControlesHtmlPractica.pdb
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesHtmlPractica\ControlesHtmlPractica\bin\ControlesHtmlPractica.dll.config
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesHtmlPractica\ControlesHtmlPractica\bin\ControlesHtmlPractica.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesHtmlPractica\ControlesHtmlPractica\bin\ControlesHtmlPractica.pdb
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesHtmlPractica\ControlesHtmlPractica\obj\Debug\ControlesHtmlPractica.csprojAssemblyReference.cache
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesHtmlPractica\ControlesHtmlPractica\obj\Debug\ControlesHtmlPractica.csproj.CoreCompileInputs.cache
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesHtmlPractica\ControlesHtmlPractica\obj\Debug\ControlesHtmlPractica.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ControlesHtmlPractica\ControlesHtmlPractica\obj\Debug\ControlesHtmlPractica.pdb

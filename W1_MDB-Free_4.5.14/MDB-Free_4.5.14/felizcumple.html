@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <style type="text/css">
+    #logo{
+      font-family: 'Pacifico', cursive;
+      color: yellow;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="icons8-birthday-16.png">
+</head>
+
+<body>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+      <a class="navbar-brand" href="#" id="logo">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+      Feliz Cumpleaños
+    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link waves-effect waves-light" href="felizcumple.html">Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" id="opcion" href=""></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" id="logout" onclick="cerrar()" href="#"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8" id="contenido">
+      <form class="text-center border border-light p-5">
+          <p class="h4 mb-4">Acceder</p>
+          <input type="email" id="login" class="form-control mb-4" placeholder="Login">
+          <input type="password" id="password" class="form-control mb-4" placeholder="Password">
+          <button class="btn btn-primary btn-block my-4 waves-effect waves-light" onclick="validar()" type="button">Acceder</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var logout=document.getElementById("logout");
+  var formulario='<form class="text-center border border-light p-5"><p class="h4 mb-4">Acceder</p><input type="email" id="login" class="form-control mb-4" placeholder="Login"><input type="password" id="password" class="form-control mb-4" placeholder="Password"><button class="btn btn-primary btn-block my-4 waves-effect waves-light" onclick="validar()" type="button">Acceder</button></form>';
+  var bienvenido='<h1>Bienvenido!</h1>';
+  var contenido=document.getElementById("contenido");
+  var opcion=document.getElementById("opcion");
+  localStorage.login1="juan";
+  localStorage.clave1="bolivia123";
+  localStorage.login2="maria";
+  localStorage.clave2="bolivia123";
+  localStorage.login3="carmen";
+  localStorage.clave3="bolivia123";
+  if(localStorage.login1ok==1){localStorage.login2ok==0;localStorage.login3ok==0; logout.innerHTML="Cerrar sesión"; contenido.innerHTML=bienvenido; opcion.innerHTML="Tarjetas"; opcion.href="pagina.html";}
+  if(localStorage.login2ok==1){localStorage.login1ok==0;localStorage.login3ok==0; logout.innerHTML="Cerrar sesión"; contenido.innerHTML=bienvenido; opcion.innerHTML="Videos"; opcion.href="pagina.html";}
+  if(localStorage.login3ok==1){localStorage.login1ok==0;localStorage.login2ok==0; logout.innerHTML="Cerrar sesión"; contenido.innerHTML=bienvenido; opcion.innerHTML="Frases"; opcion.href="pagina.html";}
+  
+  function validar()
+  {
+    var login=document.getElementById("login").value;
+    var password=document.getElementById("password").value;
+
+    if(login==localStorage.login1 && password==localStorage.clave1)
+    {
+      localStorage.login1ok=1;
+      document.location.reload(true);
+    }
+    if(login==localStorage.login2 && password==localStorage.clave2)
+    {
+      localStorage.login2ok=1;
+      document.location.reload(true);
+    }
+    if(login==localStorage.login3 && password==localStorage.clave3)
+    {
+      localStorage.login3ok=1;
+      document.location.reload(true);
+    }
+  }
+
+  function cerrar()
+  {
+    localStorage.login1ok=0;
+    localStorage.login2ok=0;
+    localStorage.login3ok=0;
+    document.location.reload(true);
+  }
+</script>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>

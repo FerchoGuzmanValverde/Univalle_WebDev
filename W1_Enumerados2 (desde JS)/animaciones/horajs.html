@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aprendiendo Bootstrap">
+    <meta name="keywords" content="Bootstrap, Twitter, Responsivo">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<style type="text/css">
+  #container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: yellow;
+  }
+  #animate{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+  }
+</style>
+
+  </head>
+  <body>
+
+<div class="container">
+
+  <div class="card"">
+    <div class="card-body">
+      <h4 class="card-title">Animacion</h4>
+      <p class="card-text">
+
+        <div id="container">
+          <button class="btn btn-warning" onclick="cargarAnimacion()">Diagonal</button>
+          <img src="1.jpg" id="animacion"></div>
+        </div>    
+
+      </p>
+    </div>
+  </div>
+  
+</div>
+<script src="banner.js"></script>    
+  </body>
+</html>

@@ -1,0 +1,18 @@
+main{
+	background-color: #eee;
+	padding: 20px;
+}
+
+.rowform{
+	padding: 10px 0px;
+	display: flex; /*flex box property*/
+}
+
+.rowform label{
+	margin-right: 10px;
+	flex: 1;
+}
+
+.rowform input{
+ 	flex: 1;
+}

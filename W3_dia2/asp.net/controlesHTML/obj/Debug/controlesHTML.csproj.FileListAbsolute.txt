@@ -1,0 +1,6 @@
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\asp.net\controlesHTML\bin\controlesHTML.dll.config
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\asp.net\controlesHTML\bin\controlesHTML.dll
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\asp.net\controlesHTML\bin\controlesHTML.pdb
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\asp.net\controlesHTML\obj\Debug\controlesHTML.csprojResolveAssemblyReference.cache
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\asp.net\controlesHTML\obj\Debug\controlesHTML.dll
+C:\Users\Usuario-PC\Documents\Visual Studio 2013\Projects\asp.net\controlesHTML\obj\Debug\controlesHTML.pdb

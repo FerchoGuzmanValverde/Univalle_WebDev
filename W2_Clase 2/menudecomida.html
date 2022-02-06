@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+	<button type="button" onclick="cargarmenu()">Cargar menu
+	</button>
+
+	<table id="contenido">
+	</table>
+
+	<script type="text/javascript">
+		function cargarmenu()
+		{
+			var xhr=new XMLHttpRequest();
+			xhr.onreadystatechange=function()
+			{
+				if(xhr.readyState==4 && xhr.status==200)
+				{
+					var tabla="<tr><th>No.</th><th>CIUDAD</th><th>PLATO</th></tr>";
+					var platos=xhr.responseXML.getElementsByTagName("FOOD");
+					for(var i=0; i<platos.length; i++)
+					{
+						tabla=tabla+"<tr><td>";
+						tabla=tabla+platos[i].getElementsByTagName("ITEM")[0].childNodes[0].nodeValue;
+						tabla=tabla+"</td><td>";
+
+						tabla=tabla+platos[i].getElementsByTagName("CITY")[0].childNodes[0].nodeValue;
+						tabla=tabla+"</td><td>";
+
+						tabla=tabla+platos[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue;
+						tabla=tabla+"</td><tr>";
+					}
+					var tablacontenido=document.getElementById('contenido');
+					tablacontenido.innerHTML=tabla
+				}
+			}
+			xhr.open("GET","comida.xml",true);
+			xhr.send();
+		}
+	</script>
+
+
+
+</body>
+</html>

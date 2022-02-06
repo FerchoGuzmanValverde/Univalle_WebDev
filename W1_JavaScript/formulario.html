@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Formulario JS</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Aprendiendo formularios">
+	<meta name="keywords" content="JavaScript, Formularios">
+	<meta name="author" content="Fernando Guzman">
+</head>
+<body>
+
+	<form id="calculos" action="destino.php" method="post">
+		<input type="text" name="numero1" id="random1">
+		<input type="text" name="numero2" id="random2">
+		<button type="button" name="button" onclick="generarRandom()">Generar</button>
+
+	</form>
+	<form id="suma" action="destino2.php" method="post">
+		<input type="text" name="n1" id="num1">
+		<input type="text" name="n2" id="num2">
+		<input type="text" name="n3" id="resultado">
+		<button type="button" name="boton2" onclick="sumar()">Sumar</button>
+	</form>
+
+	<script type="text/javascript" src="formulario.js"></script>
+</body>
+</html>

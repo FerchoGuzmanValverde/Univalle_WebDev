@@ -1,0 +1,6 @@
+c:\users\toshiba innovation\documents\visual studio 2013\Projects\Practica1\ejercicio1\obj\Debug\ejercicio1.csprojResolveAssemblyReference.cache
+C:\Users\TOSHIBA INNOVATION\Documents\Visual Studio 2013\Projects\Practica1\ejercicio1\bin\Univalle.Informatica.Isi.Practicas.dll.config
+C:\Users\TOSHIBA INNOVATION\Documents\Visual Studio 2013\Projects\Practica1\ejercicio1\bin\Univalle.Informatica.Isi.Practicas.dll
+C:\Users\TOSHIBA INNOVATION\Documents\Visual Studio 2013\Projects\Practica1\ejercicio1\bin\Univalle.Informatica.Isi.Practicas.pdb
+C:\Users\TOSHIBA INNOVATION\Documents\Visual Studio 2013\Projects\Practica1\ejercicio1\obj\Debug\Univalle.Informatica.Isi.Practicas.dll
+C:\Users\TOSHIBA INNOVATION\Documents\Visual Studio 2013\Projects\Practica1\ejercicio1\obj\Debug\Univalle.Informatica.Isi.Practicas.pdb

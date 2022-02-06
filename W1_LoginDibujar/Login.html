@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>2do Parcial</title>
+    <meta charset="utf-8">
+    <meta name="description" content="2do Parcial DPW">
+    <meta name="keywords" content="Javascript, Programacion Web, Internet">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<style type="text/css">
+  form{
+    width: 100%
+  }
+</style>
+
+</head>
+<body>
+<div class="container">
+  <h1>Pregunta No. 4</h1>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+
+          <div class="card">
+
+            <div class="card-body" id="panel">
+              <center>
+                <h1>Ingrese Login y Password</h1><br>
+              </center>
+              <form class="form-inline">
+                  <input type="text" name="login" id="login" placeholder="Ingrese nombre" class="form-control mb-4 mr-sm-4" style="width: 350px">
+                  <input type="password" name="contra" id="contrasenia" placeholder="Ingrese password" class="form-control mb-4 mr-sm-4" style="width: 350px">
+                  <button type="button" onclick="validar()" class="btn btn-info form-control mb-4 mr-sm-4" style="width: 200px">Ingresar</button><br>
+              </form>
+              <h2 id="respuesta">....</h2>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  function validar()
+    {
+      if(typeof(Storage1) !== "Juan")
+      {
+        if(typeof(Storage2) !== "bolivia123")
+        {
+          document.getElementById("respuesta").innerHTML = "Acceso Permitido.";
+        }
+        else
+        {
+          document.getElementById("respuesta").innerHTML = "Error en password";
+        }
+      }
+      else
+      {
+        document.getElementById("respuesta").innerHTML = "User no registrado.";
+      }
+    }
+
+</script>
+  </body>
+</html>

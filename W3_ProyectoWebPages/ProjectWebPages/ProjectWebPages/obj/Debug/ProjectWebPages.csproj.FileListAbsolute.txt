@@ -1,0 +1,135 @@
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\csc.exe
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\System.Collections.Immutable.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\System.Reflection.Metadata.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\vbc.exe
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\VBCSCompiler.exe
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\roslyn\VBCSCompiler.exe.config
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\ProjectWebPages.dll.config
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\ProjectWebPages.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\ProjectWebPages.pdb
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\Microsoft.Web.Infrastructure.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.Helpers.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.Mvc.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.Razor.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Deployment.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Razor.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.Helpers.xml
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.Mvc.xml
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.Razor.xml
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.xml
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Deployment.xml
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Razor.xml
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\es\System.Web.Helpers.resources.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\es\System.Web.Mvc.resources.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\es\System.Web.Razor.resources.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\es\System.Web.WebPages.resources.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\obj\Debug\ProjectWebPages.csprojResolveAssemblyReference.cache
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\obj\Debug\ProjectWebPages.dll
+F:\4toSemester\Programacion Web III\ProjectWebPages\ProjectWebPages\obj\Debug\ProjectWebPages.pdb
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\csc.exe
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\System.Collections.Immutable.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\System.Reflection.Metadata.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\vbc.exe
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\VBCSCompiler.exe
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\VBCSCompiler.exe.config
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\ProjectWebPages.dll.config
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\ProjectWebPages.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\ProjectWebPages.pdb
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\Microsoft.Web.Infrastructure.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Helpers.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Mvc.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Razor.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Deployment.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Razor.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Helpers.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Mvc.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Razor.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Deployment.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Razor.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.Helpers.resources.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.Mvc.resources.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.Razor.resources.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.WebPages.resources.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\obj\Debug\ProjectWebPages.csprojResolveAssemblyReference.cache
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\obj\Debug\ProjectWebPages.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\obj\Debug\ProjectWebPages.pdb
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\EntityFramework.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\EntityFramework.SqlServer.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\EntityFramework.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\EntityFramework.SqlServer.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\WebMatrix.Data.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\WebMatrix.WebData.dll
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\WebMatrix.Data.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\WebMatrix.WebData.xml
+G:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\Microsoft.Web.Helpers.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\csc.exe
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\System.Collections.Immutable.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\System.Reflection.Metadata.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\vbc.exe
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\VBCSCompiler.exe
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\roslyn\VBCSCompiler.exe.config
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\ProjectWebPages.dll.config
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\ProjectWebPages.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\ProjectWebPages.pdb
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\EntityFramework.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\EntityFramework.SqlServer.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\Microsoft.Web.Helpers.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\Microsoft.Web.Infrastructure.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Helpers.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Mvc.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Razor.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Deployment.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Razor.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\WebMatrix.Data.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\WebMatrix.WebData.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\EntityFramework.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\EntityFramework.SqlServer.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Helpers.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Mvc.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.Razor.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Deployment.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\System.Web.WebPages.Razor.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\WebMatrix.Data.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\WebMatrix.WebData.xml
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.Helpers.resources.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.Mvc.resources.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.Razor.resources.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.WebPages.resources.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\obj\Debug\ProjectWebPages.csprojResolveAssemblyReference.cache
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\obj\Debug\ProjectWebPages.dll
+F:\Univalle\4to Semestre CS\Programacion Web 3\ProyectoWebPages\ProjectWebPages\ProjectWebPages\obj\Debug\ProjectWebPages.pdb

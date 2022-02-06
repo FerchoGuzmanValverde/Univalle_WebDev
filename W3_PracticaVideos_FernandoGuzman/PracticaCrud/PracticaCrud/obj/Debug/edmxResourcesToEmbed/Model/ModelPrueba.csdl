@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebasDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Formato">
+    <Key>
+      <PropertyRef Name="idFormato" />
+    </Key>
+    <Property Name="idFormato" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Video" Relationship="Self.FK_Video_Formato" FromRole="Formato" ToRole="Video" />
+  </EntityType>
+  <EntityType Name="Video">
+    <Key>
+      <PropertyRef Name="idVideo" />
+    </Key>
+    <Property Name="idVideo" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idFormato" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="Formato" Relationship="Self.FK_Video_Formato" FromRole="Video" ToRole="Formato" />
+  </EntityType>
+  <Association Name="FK_Video_Formato">
+    <End Role="Formato" Type="Self.Formato" Multiplicity="1" />
+    <End Role="Video" Type="Self.Video" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Formato">
+        <PropertyRef Name="idFormato" />
+      </Principal>
+      <Dependent Role="Video">
+        <PropertyRef Name="idFormato" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PruebasDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Formato" EntityType="Self.Formato" />
+    <EntitySet Name="Video" EntityType="Self.Video" />
+    <AssociationSet Name="FK_Video_Formato" Association="Self.FK_Video_Formato">
+      <End Role="Formato" EntitySet="Formato" />
+      <End Role="Video" EntitySet="Video" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

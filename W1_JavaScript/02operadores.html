@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<meta charset="utf-8">
+	<meta name="desription" content="Aprendiendo JavaScript">
+	<meta name="keywords" content="JavaScript, Html, internet">
+	<meta name="author" content="Fernando Guzman Valverde">
+
+	
+</head>
+<body>
+
+	<p id="random1"></p>
+	<p id="random2"></p>
+
+	<p>Suma:</p>
+	<p id="resultado"></p>
+	<button type="button" onclick="sumar(numero1, numero2)">Calcular Suma</button>
+
+	<p>Resta:</p>
+	<p id="resultadoResta"></p>
+
+	<script src="02operadores.js"></script>
+	<script type="text/javascript">
+		document.getElementById("resultadoResta").innerHTML = restar(numero1, numero2);
+	</script>
+	
+</body>
+</html>

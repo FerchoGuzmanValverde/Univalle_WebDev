@@ -1,0 +1,35 @@
+﻿@{
+    Random random = new Random();
+    var numero = random.Next(1,9);
+    
+   
+    
+    <table border="1">
+            @for (int i = 1; i <= numero; i++)
+            {
+                <tr>
+                    @for (int j = 1; j <= numero; j++)
+			        {
+                        var resp = i *j;
+			            <td>
+                             @resp
+                        </td>
+			        }
+                </tr>
+            }
+        </table>
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        
+    </div>
+</body>
+</html>

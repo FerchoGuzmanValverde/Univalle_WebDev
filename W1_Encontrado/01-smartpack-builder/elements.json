@@ -1,0 +1,68 @@
+var _Elements = {"elements": {
+    "Headers":[
+    	{"url":"elements/header.html","height":29, "thumbnail":"elements/images/thumbs/header1.png"}
+    ],
+	"Slideshow Blocks":[
+		{"url":"elements/slideshow1.html","height":205, "thumbnail":"elements/images/thumbs/slideshow1.png", "sandbox":true, "loaderFunction":"startLayerslider"},
+		{"url":"elements/slideshow2.html","height":345, "thumbnail":"elements/images/thumbs/slideshow2.png", "sandbox":true, "loaderFunction":"startLayerslider"},
+		{"url":"elements/slideshow3.html","height":200, "thumbnail":"elements/images/thumbs/slideshow3.png", "sandbox":true, "loaderFunction":"startLayerslider"}
+	],
+    "Content Sections":[
+    	{"url":"elements/intro0.html","height":200, "thumbnail":"elements/images/thumbs/content0.png"},
+		{"url":"elements/intro1.html","height":200, "thumbnail":"elements/images/thumbs/intro1.png"},
+		{"url":"elements/intro2.html","height":195, "thumbnail":"elements/images/thumbs/intro2.png"},
+		{"url":"elements/intro3.html","height":200, "thumbnail":"elements/images/thumbs/intro3.png"},
+		{"url":"elements/intro4.html","height":185, "thumbnail":"elements/images/thumbs/intro4.png"},
+		{"url":"elements/intro6.html","height":200, "thumbnail":"elements/images/thumbs/intro6.png"},
+		{"url":"elements/intro7.html","height":210, "thumbnail":"elements/images/thumbs/intro0.png"},
+    	{"url":"elements/services1.html","height":330, "thumbnail":"elements/images/thumbs/services1.png"},
+    	{"url":"elements/testimonials1.html","height":83, "thumbnail":"elements/images/thumbs/testimonials1.png"},
+    	{"url":"elements/testimonials2.html","height":90, "thumbnail":"elements/images/thumbs/testimonials2.png"},
+    	{"url":"elements/content2.html","height":192, "thumbnail":"elements/images/thumbs/content1.png"},
+		{"url":"elements/intro5.html","height":153, "thumbnail":"elements/images/thumbs/intro5.png"},
+		{"url":"elements/content1.html","height":222, "thumbnail":"elements/images/thumbs/content8.png"},
+    	{"url":"elements/content4.html","height":74, "thumbnail":"elements/images/thumbs/content4.png"},
+		{"url":"elements/content3.html","height":192, "thumbnail":"elements/images/thumbs/content3.png"},
+		{"url":"elements/content5.html","height":353, "thumbnail":"elements/images/thumbs/content5.png"},
+		{"url":"elements/content6.html","height":200, "thumbnail":"elements/images/thumbs/content6.png"},
+		{"url":"elements/content7.html","height":200, "thumbnail":"elements/images/thumbs/content7.png"},
+		{"url":"elements/partners1.html","height":80, "thumbnail":"elements/images/thumbs/partners1.png"},
+		{"url":"elements/partners2.html","height":75, "thumbnail":"elements/images/thumbs/partners2.png"},
+		{"url":"elements/fun_facts1.html","height":54, "thumbnail":"elements/images/thumbs/funfacts1.png"},
+		{"url":"elements/social_icons.html","height":40, "thumbnail":"elements/images/thumbs/social1.png"}
+    ],
+	"Services":[
+    	{"url":"elements/services2.html","height":276, "thumbnail":"elements/images/thumbs/services2.png"},
+    	{"url":"elements/services3.html","height":280, "thumbnail":"elements/images/thumbs/services3.png"},
+    	{"url":"elements/services4.html","height":140, "thumbnail":"elements/images/thumbs/services4.png"},
+    	{"url":"elements/services5.html","height":140, "thumbnail":"elements/images/thumbs/services5.png"}
+    ],
+    "Portfolios":[
+    	{"url":"elements/portfolio1.html","height":170, "thumbnail":"elements/images/thumbs/portfolio1.png"},
+		{"url":"elements/portfolio2.html","height":265, "thumbnail":"elements/images/thumbs/portfolio2.png"}
+    ],
+	"Blog":[
+    	{"url":"elements/blog.html","height":560, "thumbnail":"elements/images/thumbs/blog1.png"}
+    ],
+    "Team":[
+    	{"url":"elements/team1.html","height":281, "thumbnail":"elements/images/thumbs/team1.png"},
+    	{"url":"elements/team2.html","height":254, "thumbnail":"elements/images/thumbs/team2.png"}
+    ],
+    "Pricing Tables":[
+    	{"url":"elements/pricing_table1.html","height":332, "thumbnail":"elements/images/thumbs/pricing1.png"},
+    	{"url":"elements/pricing_table2.html","height":202, "thumbnail":"elements/images/thumbs/pricing2.png"},
+    	{"url":"elements/pricing_table3.html","height":203, "thumbnail":"elements/images/thumbs/pricing3.png"}
+    ],
+    "Contact Forms":[
+    	{"url":"elements/newsletter1.html","height":142, "thumbnail":"elements/images/thumbs/newsletter1.png"},
+		{"url":"elements/newsletter2.html","height":175, "thumbnail":"elements/images/thumbs/newsletter2.png"},
+		{"url":"elements/newsletter3.html","height":155, "thumbnail":"elements/images/thumbs/newsletter3.png"},
+		{"url":"elements/newsletter4.html","height":144, "thumbnail":"elements/images/thumbs/newsletter4.png"},
+		{"url":"elements/contact.html","height":250, "thumbnail":"elements/images/thumbs/contact1.png"}
+    ],
+    "Footers":[
+    	{"url":"elements/footer1.html","height":45, "thumbnail":"elements/images/thumbs/footer1.png"},
+		{"url":"elements/footer2.html","height":60, "thumbnail":"elements/images/thumbs/footer2.png"}
+    ]
+    }
+}

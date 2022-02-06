@@ -1,0 +1,24 @@
+.contenedor{
+	background-color:  #fff;
+	padding: 0px;
+}
+
+.colcontenedor{
+	padding: 20px;
+	box-sizing: border-box;
+	flex-basis: 30%;
+}
+
+/* algo de responsividad*/
+/* Instrucciones validas de 900px para arriva */
+@media(min-width: 900px) 
+{
+	.contenedor{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.colcontenedor:nth-child(1){ background-color:green; }
+.colcontenedor:nth-child(2){ background-color:yellow; }
+.colcontenedor:nth-child(3){ background-color:red; }

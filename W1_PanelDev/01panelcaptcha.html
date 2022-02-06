@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Jquery</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Drag and Drop en HTML5">
+    <meta name="keywords" content="Drag and Drop, HTML5, Internet">
+    <meta name="author" content="Juan Pérez">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.3.1.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <h1>jQuery + JS</h1>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Registro</h4>
+
+          <div class="card">
+            <div class="card-header" id="cabeza" style="cursor: pointer; cursor: hand;">
+            Panel toggle
+            </div>
+            <div class="card-body" id="panel">
+              <h4 class="card-title">Complete el formulario</h4>
+              
+              <form id="formcaptcha" action="destino.html" method="post">
+
+                <div class="form-group">
+                  <input type="text" name="nombre" placeholder="Ingrese su nombre" class="form-control" autocomplete="off">
+                </div>
+
+                <div class="row">
+                  <div class="col-md-2"><img src="images/start.png" class="img-fluid" id="imgrandom1"></div>
+                  <div class="col-md-2"><img src="images/mas.png" class="img-fluid"></div>
+                  <div class="col-md-2"><img src="images/start.png" class="img-fluid" id="imgrandom2"></div>
+                  <div class="col-md-2"><img src="images/igual.png" class="img-fluid"></div>
+                  <div class="col-md-2">
+                    <input type="text" id="respuesta" autocomplete="off" class="form-control">
+                  </div>
+                  <div class="col-md-2">
+                    <button class="btn btn-primary" type="button" id="registrar">Registrar</button>
+                  </div>
+                </div>
+                
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="01panelcaptcha.js"></script>
+
+  </body>
+</html>

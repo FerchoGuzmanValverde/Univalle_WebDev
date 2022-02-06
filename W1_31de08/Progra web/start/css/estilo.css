@@ -1,0 +1,73 @@
+/*header{
+	background-color: #ffffcc;
+	border-style: solid;
+	border-width: 1px;
+	border-color: orange;
+
+	/*interno
+	padding: 50px;
+	/*padding: 0px 100px 30px 50px;
+			/*superior derecha inferior izquierda
+	/*padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+	padding: 0px 50px 0px 50px;
+	padding: 0px 50px;
+
+    /*externo*/
+	/*margin: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+
+	margin: 0px;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Indie+Flower');
+@font-face{
+	font-family: 'Patrick Hand';
+	src:url(../fonts/patrick.ttf);
+}
+
+body{
+	background-image: url(../images/fondociudad.jpg);
+	background-repeat: repeat-x; /*repeat-x; no-repeat;*/
+	background-color: #ecebab;
+}
+
+h1{
+	font-family: 'Patrick Hand', sans-serif;
+	font-size: 50px;
+}
+
+p{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 30px;
+	/*font-style: italic;
+	font-weight: lighter;*/
+	text-transform: uppercase;
+	/* lowercase capitalize*/
+	text-decoration: underline;
+	/*overline line-through*/
+
+	text-decoration-line: underline;
+	text-decoration-color: red;
+	text-decoration-style: dotted;
+
+	line-height: 50px; /*espacio entre lineas*/
+
+	/*alineacion*/
+	text-align: center;
+	/*left rigth justify*/
+
+	/*espacio entre letras*/
+	letter-spacing: -2px;
+
+	/*sangria*/
+	text-indent: 50px;
+
+}
